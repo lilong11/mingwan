@@ -1,0 +1,547 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-family: "Adobe 黑体 Std";
+} 
+
+.img img:hover{transform: scale(1.01);cursor:pointer;}
+
+
+ 
+.glyphicon-map-marker {
+	color: #F2A613;
+}
+
+.su {
+	margin-top: 15px;
+}
+
+.colors {
+	color: #F2A613;
+}
+
+.clearfix {
+	overflow: hidden;
+	_height: 1%;
+}
+
+.case-right input:focus { 
+	outline:none;    
+	-webkit-box-shadow: 0 0 0 #fff;
+	  -moz-box-shadow:0 0 0 #fff; 
+    border: 1px solid #F2A613; 
+}
+
+
+.wrap {
+	width: 100vw;
+	height: 100vh;
+}
+
+.topBox {
+	position: absolute;
+	width: 100%;
+	height: 5vh;
+}
+
+.navs {
+	width: 100%;
+	height: 115px;
+	margin-top: -19px;
+}
+
+/* .navs ul li {
+	margin-top: 10px;
+	float: left;
+} */
+
+.navs a {
+	color: #000;
+	margin-top: 10px;
+	font-size: 19px;
+
+}
+
+.navs a:hover {
+	color: #F2A613;
+	background: #F2A613;
+	text-decoration: none;
+}
+
+.navs img {
+	width: 300px;
+	/* height: 115px; */
+	float: left;
+}
+
+ 
+
+#underline {
+	margin-top: 20px;
+	margin-left: 30px;
+	position: relative;
+	list-style-type: none;
+}
+
+#underline:after {
+	content: "";
+	height: 5px;
+	background: #F2A613;
+	position: absolute;
+	top: 90px;
+	transition: all .8s;
+}
+
+#underline:hover:after {
+	left: 0%;
+	width: 100%;
+}
+
+.boxs{
+	position: relative;
+    /* left: 350px; */
+    top: -50px;
+	width:1200px;
+	height:150px;
+	margin: 0 auto;
+	background:rgba(255,255,255,1);
+	box-shadow:0px 2px 13px 0px rgba(89,89,89,0.23);
+	border-radius:5px;
+}
+
+  
+
+.between{
+	/* 间距 */
+	width: 100%;
+	height: 50px; 
+}
+ 
+.idx-case a:hover{
+	text-decoration: none;
+}
+  
+
+
+ 
+ 
+/* 定位 */
+#parent{
+width:500px;
+position:relative;
+}
+#text{
+width: 40px;
+/* height:25px; */
+}
+#select{
+width:420px;
+/* height:185px; */
+position:absolute;
+top:50px;
+margin-left: 320px;
+margin-top: -2px;
+/* left:550px;  */
+color: #F2A613;
+background-color: #F8F8F8;
+}
+.cities{
+width:60px;
+height:25px;
+line-height:25px;
+margin:5px 5px 0 5px;
+float:left;
+text-align:center;
+font-family:'Times New Roman';
+font-size:15px;
+cursor:pointer;
+}
+
+#text{
+border: 0;  
+outline: none;
+background-color: rgba(0, 0, 0, 0); 
+}
+
+
+/* 装修案例开始 */
+.case-top ul li{
+	float: left;
+	padding: 2px;
+}
+
+.case-top a{
+ color: #b0b0b0;
+
+}
+.case-top li span{
+ color: #F2A613;
+}
+
+
+ .case-top li :hover{
+ color: #F2A613;
+  text-decoration:none;
+}
+ 
+.case-content{
+	width: 100%;
+	/* height: 2000px; */
+	background: #F5F5F5;
+}
+
+.case-right{
+	width: 330px;
+	height: 2000px; 
+	float: right;
+}
+
+.case-form{
+	width: 310px;
+	height:300px;
+	background: #fff;
+	padding: 10px;
+	margin:  0 auto;
+}
+.case-user{
+	width: 310px;
+	height:480px;
+	background: #fff;
+	padding: 10px 30px 0;
+	margin:  0 auto;
+}
+
+.form-btn{
+	width:100%;
+	height:32px;
+	background:rgba(242,166,19,1);
+	border-radius:3px;
+	border: 0;
+	color: #fff;
+}
+
+.user-show{
+	width:101px;
+	height:35px;
+	background:rgba(212,212,212,1);
+	border: 0;
+	color: #F2A613;
+}
+.user-shows{
+	width:101px;
+	height:35px;
+	background:rgba(242,166,19,1);
+	border: 0;
+	color: #fff;
+}
+
+
+
+.case-left{
+	width: 800px;
+	height: 2615px;
+	background: #FFFFFF;
+}
+
+.btn-mw{
+	width:90px;
+	height:90px;
+	background:rgba(242,166,19,1);
+	margin-left: 130px;
+	border: 0;
+	color: #fff;
+	border-radius:50%;
+}
+
+.hr{
+	border: 0.5px solid #b0b0b0;
+	margin-top: 150px;
+}
+
+.img-2{
+	width: 620px; 
+	margin: 0 auto;
+	height:445px;
+}
+
+.img-2 img{
+	width:300px;
+	margin-left: 8px;
+	height:445px;
+	float: left;
+}
+
+.img-1{
+ 	width:528px; 
+	height:445px;
+	margin-left: 125px; 
+}
+
+.img-1 img{
+	width:100%;
+	margin-left: 8px;
+	height:445px;
+	float: left;
+}
+
+
+
+.recommend-top{ 
+	height: 30px;
+	margin-left: 50px;
+	border-left: 5px solid #F2A613;
+}
+ 
+
+.recommend-tops{
+	color: #000; 
+	position: relative;
+	top: -51px;
+	left: 70px; 
+}
+
+.stops-text{
+	position: relative;
+	top: -82px;
+	left: 230px;
+	color: #b0b0b0;
+}
+
+
+
+
+
+.xi-top{ 
+	height: 30px;
+	margin-left: 50px;
+	border-left: 5px solid #F2A613;
+} 
+
+.xi-tops{
+	color: #000; 
+	position: relative;
+	top: -51px;
+	left: 70px; 
+}
+
+.xi-text{
+	position: relative;
+	top: -82px;
+	left: 180px;
+	color: #b0b0b0;
+}
+
+.tuijian{
+	width: 720px;
+	height: 200px;
+	margin: 0 auto;
+	margin-top: -80px; 
+
+}
+
+.tuijian-div{
+	width: 232px;
+	height: 200px;
+	background: #F1F1F1;
+	float: left;
+	margin-left: 8px;
+
+}
+.tuijian-div img{
+	width: 232px; 
+}
+
+.tuijian-spans{ 
+	position: relative;
+	 top: -33px;
+	 left: 150px;
+} 
+.tuijian h5{
+	margin-left: 10px;
+}
+
+.tuijian p{
+	margin-left: 10px;
+}
+
+
+.tuijian-span{
+	color: #F2A613;
+	position: relative;
+	 top: -58px;
+	 left: 185px;
+} 
+
+/* 装修案例结束 */
+
+
+
+
+
+
+/* 导航悬浮 */
+
+.right-nav {
+
+    width:80px;
+
+    height: 382px;
+    position: fixed;top:20%;
+    left:96%;
+    bottom: auto;   
+}
+
+.right-nav ul li { 
+    width:78px; 
+    display: block; 
+    height: 77px; 
+    padding: 2px; 
+    overflow: hidden
+
+}
+
+.yuye {
+
+    background: url(../img/elevator.png) no-repeat;
+
+    background-position: 0 41%;
+    -webkit-transition: all .3s;
+
+    -moz-transition: all .3s;
+
+    -ms-transition: all .3s;
+
+    -o-transition: all .3s;
+ 
+}
+
+.yuye:hover {
+    background-position: 0 34.3%;
+}
+ 
+.zixun{
+    background: url(../img/elevator.png) no-repeat;
+    background-position: 0 47.4%;
+    -webkit-transition: all .3s;
+
+    -moz-transition: all .3s;
+
+    -ms-transition: all .3s;
+
+    -o-transition: all .3s;
+
+}
+
+.zixun:hover {
+    background-position: 0 54%;
+}
+
+.baojia{
+    background: url(../img/elevator.png) no-repeat;
+
+    background-position: 0 67%;
+    -webkit-transition: all .3s;
+
+    -moz-transition: all .3s;
+
+    -ms-transition: all .3s;
+
+    -o-transition: all .3s;
+}
+
+.baojia:hover {
+    background-position: 0 60.5%; 
+}
+
+ .weixin-logo {
+
+    background: url(../img/elevator.png) no-repeat;
+
+    background-position: 0 0;
+
+    width: 0px;
+
+    height: 0px;
+
+    overflow: hidden;
+
+    position: absolute;
+
+    top: 110px;
+
+    right: 80px;
+
+    -webkit-transition: all .3s;
+
+    -moz-transition: all .3s;
+
+    -ms-transition: all .3s;
+
+    -o-transition: all .3s;
+
+}
+
+.weixin {
+
+    background: url(../img/elevator.png) no-repeat;
+
+    background-position: 0 74%;
+
+    -webkit-transition: all .3s;
+
+    -moz-transition: all .3s;
+
+    -ms-transition: all .3s;
+
+    -o-transition: all .3s;
+
+}
+
+.weixin:hover {
+
+    background-position: 0 80.5%; 
+}
+
+.weixin:hover .weixin-logo {
+
+    width: 170px;
+
+    height: 204px;
+
+}
+
+.top{
+    background: url(../img/elevator.png) no-repeat;
+
+    background-position: 0 94%;
+    -webkit-transition: all .3s;
+
+    -moz-transition: all .3s;
+
+    -ms-transition: all .3s;
+
+    -o-transition: all .3s;
+}
+
+.top:hover {
+    background-position: 0 87%; 
+} 
+.lc-tubiao{   
+	width:20px;
+	height:20px;
+	background: #fff; 
+	border: 1px solid #b0b0b0;
+	border-radius:50%;
+	/* float: right; */
+	margin-top: -12px;   
+	margin-left: 220px;   
+}
+
+.lc-tubiao p{
+	margin-top: -5px;
+}
+
+/* 悬停导航结束 */
+
+
+ 

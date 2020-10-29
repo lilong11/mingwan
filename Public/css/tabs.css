@@ -1,0 +1,44 @@
+.tabs div{
+    display: none;
+    clear: both; 
+    height: 80px;
+    /* min-height: 500px; */
+}
+.tabs{
+    width: 1100px;
+    margin: 0 auto;
+
+}
+.yq{
+        background:rgba(245,245,245,1);
+        width: 100%;
+}
+.tabs div a{
+    color: #939393;
+    text-decoration:none;
+    padding: 10px;   
+}
+.tabs .horizontal{
+    margin: 0px;
+    padding: 0px;
+
+}
+.tabs .horizontal li{
+    float: left;
+    list-style: none;
+    height: 50px;
+    line-height: 50px;
+    background-color: #E7E8EA;
+    width:150px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 20px;
+}
+.tabs .horizontal li:not(:first-child){
+    margin-left: 5px;
+}
+
+.tabs .horizontal li.selectActive{ 
+    background-color:#B1B1B1;
+    color: #fff;
+}

@@ -1,0 +1,1357 @@
+<!DOCTYPE html> 
+<html lang="zh-cn"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge, chrome=1">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"> 
+    <title>杭州名万装饰</title>
+  
+    <script src="Index/js/jquery.min.js"></script>      <!-- 服务保障 -->
+     <!-- swiper -->
+    <link rel="stylesheet" href="Public/swiper/swiper.min.css">
+
+    <link rel="stylesheet" href="Index/css/index.css" />  
+    <link href="Public/bootstrap/css/bootstrap.min.css" rel="stylesheet" />  
+    <link rel="stylesheet" href="Public/css/footer.css">
+ 
+ 
+ 
+</head>
+
+ 
+<body>
+   
+    <div style='z-index:100;' id="parent"> 
+      <div id="select" v-cloak> 
+        <div class="cities">银川 </div>
+        <div class="cities">西安</div>
+        <div class="cities">郑州</div>
+        <div class="cities">南京</div>
+        <div class="cities">杭州</div>
+        <div class="cities">福州</div>
+        <div class="cities">广州</div>
+        <div class="cities">台北</div>
+        <div class="cities">南宁</div>
+        <div class="cities">昆明</div>
+        <div class="cities">成都</div>
+        <div class="cities">重庆</div>
+        <div class="cities">贵阳</div>
+        <div class="cities">长沙</div>
+        <div class="cities">南昌</div>
+        <div class="cities">合肥</div>
+        <div class="cities">武汉</div>
+        <div class="cities">上海</div>
+        <div class="cities">海口</div>
+        <div class="cities">香港</div>
+        <div class="cities">澳门</div>
+      </div>
+    </div>
+
+    
+  <!-- nav开始 --> 
+    <nav class="navbar navbar-default">
+        <div style="width:1320px;margin: 0 auto;">
+          <div class="container-fluid"> 
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav"> 
+                <li ><a href="#">欢迎来到名万装饰官方网站!</a></li> 
+                <li><a href="#"><span class="glyphicon glyphicon-map-marker"></span>       <input type="text" value="杭州" id="text"><!--  <span id="city">[切换]</span> --></a></li>  
+              </ul>
+ 
+              <ul class="nav navbar-nav navbar-right">
+                <li><a href="#"><span class="colors">微信公众号</span></a></li>
+                <li class="su">|</li>
+                <li><a href="#">微博</a></li> 
+                <li class="su">|</li>
+                <li><a href="#">联系我们</a></li> 
+                <li class="su">|</li>
+                <li><a href="#"><span class="colors"><span class="glyphicon glyphicon-phone-alt"></span> 400-8800-421</span></a></li>
+                <li><a href="#"><span class="colors"> </a></li>
+ 
+              </ul>
+            </div> 
+          </div> 
+      </div>
+    </nav> 
+
+    <div class="navs">
+        <div style="width: 1300px" class="container">
+             <img style="margin-top: 10px" src="Index/img/max-log.jpg" alt=""> 
+ 
+                <ul class="nav nav-pills"> 
+
+                  <li  id="underline" role="presentation"><a style="background-color: #fff" href="index.html"> 首页</a></li>
+                  <li id="underline" role="presentation"><a style="background-color: #fff" href="asMingwan.html"> 关于名万</a></li>
+                  <li id="underline" role="presentation"><a style="background-color: #fff" href="#"> 装修案例</a></li>
+                  <li id="underline" role="presentation"><a style="background-color: #fff" href="#"> 设计团队</a></li>
+                  <li id="underline" role="presentation"><a style="background-color: #fff" href="#"> 装修百科</a></li>
+                  <li id="underline" role="presentation"><a style="background-color: #fff" href="#"> 施工管理</a></li>
+                  <li id="underline" role="presentation"><a style="background-color: #fff" href="#"> 联系我们</a></li>
+                </ul>
+
+        </div>
+    </div> 
+  <!-- nav结束 --> 
+    
+
+
+
+    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner" role="listbox">
+
+        <div class="item active">
+          <img src="Index/img/lbt1.jpg" alt="...">
+        </div>
+
+        <div class="item">
+          <img src="Index/img/lbt2.jpg" alt="...">
+        </div>
+ 
+      </div>
+
+      <!-- Controls -->
+      <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+
+    <div class="boxs">
+          <a href=""><div class="rows" id="rows" onmouseover = "over()" onmouseout="out()"> 
+            <div class="pull-left"> 
+               <p id="over-texts2">免费预算量房</p>
+                <span id="over-texts">让装修更有保障</span> 
+            </div>
+            <div class="pull-right"> <img id="lc1-img" src="Index/img/tubiao/top2.png" id="img" alt=""><!-- <i class="tub icon iconfont">&#xe6f1;</i>  --></div> 
+ 
+        </div>
+        </a> 
+        <a href=""><div class="rows" id="rows2" onmouseover = "over1()" onmouseout="out1()"> 
+            <div class="pull-left"> 
+                <p id="over1-texts2">免费预约设计</p>
+                <span id="over1-texts1">获取设计方案</span> 
+            </div>
+            <div class="pull-right"> <img id="lc2-img" src="Index/img/tubiao/top3.png" id="img2" alt=""> </div> 
+ 
+        </div></a>
+        <a href=""><div class="rows" id="rows3" onmouseover= "over2()" onmouseout="out2()"> 
+            <div class="pull-left"> 
+                <p id="over2-texts2">免费预算报价</p>
+                <span id="over2-texts1">估算要花多钱</span> 
+            </div>
+            <div class="pull-right"><img id="lc3-img" src="Index/img/tubiao/top1.png" id="img3" alt=""> </div> 
+ 
+        </div></a>
+
+    </div>    
+
+
+
+
+        <div class="idx-case">
+            <br>
+            <p class="text-center"><img src="Index/img/zxan.png" alt=""></p>
+            <p style="color:rgba(255,255,255,1);" class="text-center">海量的装修美图，激发您的装修灵感</p>
+
+            <div style="width: 1200px;margin: 0 auto;"  class="wrap">
+
+                <div class="tabbar wow fadeInUp" id="tabbar" style="visibility: hidden; animation-name: none;">
+
+                    <a style="text-decoration: none;" href="javascript:void(0);" class="tabitem active">现代风格</a>
+
+                    <a style="text-decoration: none;" href="javascript:void(0);" class="tabitem">欧式风格</a>
+
+                    <a style="text-decoration: none;" href="javascript:void(0);" class="tabitem">中式风格</a>
+
+                    <a style="text-decoration: none;" href="javascript:void(0);" class="tabitem">美式风格</a>
+
+                    <a style="text-decoration: none;" href="javascript:void(0);" class="tabitem">地中海风格</a>
+
+                    <a style="text-decoration: none;" href="javascript:void(0);" class="tabitem">工业风风格</a>
+
+                </div>
+
+                <div class="tabcon" id="tabcon">
+
+                    <div class="module-scroll tabcon-scroll active run">
+
+                        <div class="view" style="height: 408px;margin-top: -20px">
+
+                           
+                            <ul class="list">
+
+                                <li class="item">
+                                   
+                                      <a class="tap"   href="design/d6/122.html" title="工业风装修之三">
+                                        <div style="height: 300px" class="thumb"><img  class="lazy" src="Public/img/1-1PR21FU4U1.jpg" alt="工业风装修之四" title="工业风装修之四"></div>
+
+                                        <h3 style="padding: 0 21px;" class="name">巨人网络</h3>
+                                        <div style="border:1px solid #b0b0b0;width: 20px;margin-left: 20px"></div>   
+                                        <div class="lc-tubiao"><p class="text-center">...</p></div>
+                                        <p style="padding: 0 21px;" class="text-left">现代化简约风格</p>
+                                        </a>
+                                </li>
+                                <li class="item">
+                                    <a class="tap" href="design/d6/122.html" title="工业风装修之三">
+
+                                    <div style="height: 300px" class="thumb"><img class="lazy" src="Public/img/1-1PR21FU4U1.jpg" alt="工业风装修之三" title="工业风装修之三"></div>
+                                       <h3 style="padding: 0 21px;" class="name">巨人网络</h3>
+                                        <div style="border:1px solid #b0b0b0;width: 20px;margin-left: 20px"></div>   
+                                        <div class="lc-tubiao"><p class="text-center">...</p></div>
+                                        <p style="padding: 0 21px;" class="text-left">现代化简约风格</p>
+
+                                    </a>
+                                </li>
+                                        <li class="item"><a class="tap" href="design/d6/121.html" title="工业风装修之二">
+
+                                        <div style="height: 300px" class="thumb"><img class="lazy" src="Public/img/1-1PR21FU4U1.jpg" alt="工业风装修之二" title="工业风装修之二"></div>
+
+                                           <h3 style="padding: 0 21px;" class="name">巨人网络</h3>
+                                        <div style="border:1px solid #b0b0b0;width: 20px;margin-left: 20px"></div>   
+                                        <div class="lc-tubiao"><p class="text-center">...</p></div>
+                                        <p style="padding: 0 21px;" class="text-left">现代化简约风格</p>
+
+                                        </a></li>
+                                        <li class="item"><a class="tap">
+
+                                        <div style="height: 300px" class="thumb"><img class="lazy" src="Public/img/1-1PR21FU4U1.jpg" alt="工业风装修之一" title="工业风装修之一"></div>
+
+                                           <h3 style="padding: 0 21px;" class="name">巨人网络</h3>
+                                        <div style="border:1px solid #b0b0b0;width: 20px;margin-left: 20px"></div>   
+                                        <div class="lc-tubiao"><p class="text-center">...</p></div>
+                                        <p style="padding: 0 21px;" class="text-left">现代化简约风格</p> 
+                                    </a>
+                                </li>
+
+
+                            </ul>
+
+                        </div>
+
+                    <a  href="javascript:void(0);" class="btn-control prev">&lt;</a><a href="javascript:void(0);" class="btn-control next">&gt;</a></div>                
+
+                    <div class="module-scroll tabcon-scroll">
+
+                        <div class="view"  style="height: 408px;margin-top: -20px">
+
+                            <ul class="list">
+
+                                <li class="item">
+                                   
+                                      <a class="tap"   href="design/d6/122.html" title="工业风装修之三">
+                                        <div style="height: 300px" class="thumb"><img  class="lazy" src="Public/img/1-1PR21H025312.jpg" alt="工业风装修之四" title="工业风装修之四"></div>
+
+                                        <h3 style="padding: 0 21px;" class="name">巨人网络</h3>
+                                        <div style="border:1px solid #b0b0b0;width: 20px;margin-left: 20px"></div>   
+                                        <div class="lc-tubiao"><p class="text-center">...</p></div>
+                                        <p style="padding: 0 21px;" class="text-left">现代化简约风格</p>
+                                        </a>
+                                </li>
+                                <li class="item">
+                                    <a class="tap" href="design/d6/122.html" title="工业风装修之三">
+
+                                    <div style="height: 300px" class="thumb"><img class="lazy" src="Public/img/1-1PR21H025312.jpg" alt="工业风装修之三" title="工业风装修之三"></div>
+                                       <h3 style="padding: 0 21px;" class="name">巨人网络</h3>
+                                        <div style="border:1px solid #b0b0b0;width: 20px;margin-left: 20px"></div>   
+                                        <div class="lc-tubiao"><p class="text-center">...</p></div>
+                                        <p style="padding: 0 21px;" class="text-left">现代化简约风格</p>
+
+                                    </a>
+                                </li>
+                                <li class="item">
+                                   
+                                      <a class="tap"   href="design/d6/122.html" title="工业风装修之三">
+                                        <div style="height: 300px" class="thumb"><img  class="lazy" src="Public/img/1-1PR21H025312.jpg" alt="工业风装修之四" title="工业风装修之四"></div>
+
+                                        <h3 style="padding: 0 21px;" class="name">巨人网络</h3>
+                                        <div style="border:1px solid #b0b0b0;width: 20px;margin-left: 20px"></div>   
+                                        <div class="lc-tubiao"><p class="text-center">...</p></div>
+                                        <p style="padding: 0 21px;" class="text-left">现代化简约风格</p>
+                                        </a>
+                                </li>
+                                <li class="item">
+                                    <a class="tap" href="design/d6/122.html" title="工业风装修之三">
+
+                                    <div style="height: 300px" class="thumb"><img class="lazy" src="Public/img/1-1PR21FU4U1.jpg" alt="工业风装修之三" title="工业风装修之三"></div>
+                                       <h3 style="padding: 0 21px;" class="name">巨人网络</h3>
+                                        <div style="border:1px solid #b0b0b0;width: 20px;margin-left: 20px"></div>   
+                                        <div class="lc-tubiao"><p class="text-center">...</p></div>
+                                        <p style="padding: 0 21px;" class="text-left">现代化简约风格</p>
+
+                                    </a>
+                                </li>
+
+
+                            </ul>
+
+                        </div>
+
+                    </div>                
+
+                    <div class="module-scroll tabcon-scroll">
+
+                        <div class="view"  style="height: 408px;margin-top: -20px">
+
+                            <ul class="list">
+                                <li class="item">
+                                   
+                                      <a class="tap"   href="design/d6/122.html" title="工业风装修之三">
+                                        <div style="height: 300px" class="thumb"><img  class="lazy" src="Public/img/1-1PR21FU4U1.jpg" alt="工业风装修之四" title="工业风装修之四"></div>
+
+                                        <h3 style="padding: 0 21px;" class="name">巨人网络</h3>
+                                        <div style="border:1px solid #b0b0b0;width: 20px;margin-left: 20px"></div>   
+                                        <div class="lc-tubiao"><p class="text-center">...</p></div>
+                                        <p style="padding: 0 21px;" class="text-left">现代化简约风格</p>
+                                        </a>
+                                </li>
+                                <li class="item">
+                                    <a class="tap" href="design/d6/122.html" title="工业风装修之三">
+
+                                    <div style="height: 300px" class="thumb"><img class="lazy" src="Public/img/1-1PR21FU4U1.jpg" alt="工业风装修之三" title="工业风装修之三"></div>
+                                       <h3 style="padding: 0 21px;" class="name">巨人网络</h3>
+                                        <div style="border:1px solid #b0b0b0;width: 20px;margin-left: 20px"></div>   
+                                        <div class="lc-tubiao"><p class="text-center">...</p></div>
+                                        <p style="padding: 0 21px;" class="text-left">现代化简约风格</p>
+
+                                    </a>
+                                </li>
+                                <li class="item">
+                                   
+                                      <a class="tap"   href="design/d6/122.html" title="工业风装修之三">
+                                        <div style="height: 300px" class="thumb"><img  class="lazy" src="Public/img/1-1PR21H025312.jpg" alt="工业风装修之四" title="工业风装修之四"></div>
+
+                                        <h3 style="padding: 0 21px;" class="name">巨人网络</h3>
+                                        <div style="border:1px solid #b0b0b0;width: 20px;margin-left: 20px"></div>   
+                                        <div class="lc-tubiao"><p class="text-center">...</p></div>
+                                        <p style="padding: 0 21px;" class="text-left">现代化简约风格</p>
+                                        </a>
+                                </li>
+                                <li class="item">
+                                    <a class="tap" href="design/d6/122.html" title="工业风装修之三">
+
+                                    <div style="height: 300px" class="thumb"><img class="lazy" src="Public/img/1-1PR21H025312.jpg" alt="工业风装修之三" title="工业风装修之三"></div>
+                                       <h3 style="padding: 0 21px;" class="name">巨人网络</h3>
+                                        <div style="border:1px solid #b0b0b0;width: 20px;margin-left: 20px"></div>   
+                                        <div class="lc-tubiao"><p class="text-center">...</p></div>
+                                        <p style="padding: 0 21px;" class="text-left">现代化简约风格</p>
+
+                                    </a>
+                                </li>
+
+
+
+                            </ul>
+
+                        </div>
+
+                    </div>                
+
+                    <div class="module-scroll tabcon-scroll">
+
+                        <div class="view"  style="height: 408px;margin-top: -20px">
+
+                            <ul class="list">
+
+                                <li class="item">
+                                   
+                                      <a class="tap"   href="design/d6/122.html" title="工业风装修之三">
+                                        <div style="height: 300px" class="thumb"><img  class="lazy" src="Public/img/1-1PR21H025312.jpg" alt="工业风装修之四" title="工业风装修之四"></div>
+
+                                        <h3 style="padding: 0 21px;" class="name">巨人网络</h3>
+                                        <div style="border:1px solid #b0b0b0;width: 20px;margin-left: 20px"></div>   
+                                        <div class="lc-tubiao"><p class="text-center">...</p></div>
+                                        <p style="padding: 0 21px;" class="text-left">现代化简约风格</p>
+                                        </a>
+                                </li>
+                                <li class="item">
+                                    <a class="tap" href="design/d6/122.html" title="工业风装修之三">
+
+                                    <div style="height: 300px" class="thumb"><img class="lazy" src="Public/img/1-1PR21H025312.jpg" alt="工业风装修之三" title="工业风装修之三"></div>
+                                       <h3 style="padding: 0 21px;" class="name">巨人网络</h3>
+                                        <div style="border:1px solid #b0b0b0;width: 20px;margin-left: 20px"></div>   
+                                        <div class="lc-tubiao"><p class="text-center">...</p></div>
+                                        <p style="padding: 0 21px;" class="text-left">现代化简约风格</p>
+
+                                    </a>
+                                </li>
+
+                                <li class="item">
+                                   
+                                      <a class="tap"   href="design/d6/122.html" title="工业风装修之三">
+                                        <div style="height: 300px" class="thumb"><img  class="lazy" src="Public/img/1-1PR21FU4U1.jpg" alt="工业风装修之四" title="工业风装修之四"></div>
+
+                                        <h3 style="padding: 0 21px;" class="name">巨人网络</h3>
+                                        <div style="border:1px solid #b0b0b0;width: 20px;margin-left: 20px"></div>   
+                                        <div class="lc-tubiao"><p class="text-center">...</p></div>
+                                        <p style="padding: 0 21px;" class="text-left">现代化简约风格</p>
+                                        </a>
+                                </li>
+                                <li class="item">
+                                    <a class="tap" href="design/d6/122.html" title="工业风装修之三">
+
+                                    <div style="height: 300px" class="thumb"><img class="lazy" src="Public/img/1-1PR21FU4U1.jpg" alt="工业风装修之三" title="工业风装修之三"></div>
+                                       <h3 style="padding: 0 21px;" class="name">巨人网络</h3>
+                                        <div style="border:1px solid #b0b0b0;width: 20px;margin-left: 20px"></div>   
+                                        <div class="lc-tubiao"><p class="text-center">...</p></div>
+                                        <p style="padding: 0 21px;" class="text-left">现代化简约风格</p>
+
+                                    </a>
+                                </li>
+
+
+
+                            </ul>
+
+                        </div>
+
+                    </div>                
+
+                    <div class="module-scroll tabcon-scroll">
+
+                        <div class="view"  style="height: 408px;margin-top: -20px">
+
+                            <ul class="list">
+
+                                <li class="item">
+                                   
+                                      <a class="tap"   href="design/d6/122.html" title="工业风装修之三">
+                                        <div style="height: 300px" class="thumb"><img  class="lazy" src="Public/img/1-1PR21FU4U1.jpg" alt="工业风装修之四" title="工业风装修之四"></div>
+
+                                        <h3 style="padding: 0 21px;" class="name">巨人网络</h3>
+                                        <div style="border:1px solid #b0b0b0;width: 20px;margin-left: 20px"></div>   
+                                        <div class="lc-tubiao"><p class="text-center">...</p></div>
+                                        <p style="padding: 0 21px;" class="text-left">现代化简约风格</p>
+                                        </a>
+                                </li>
+                                <li class="item">
+                                    <a class="tap" href="design/d6/122.html" title="工业风装修之三">
+
+                                    <div style="height: 300px" class="thumb"><img class="lazy" src="Public/img/1-1PR21FU4U1.jpg" alt="工业风装修之三" title="工业风装修之三"></div>
+                                       <h3 style="padding: 0 21px;" class="name">巨人网络</h3>
+                                        <div style="border:1px solid #b0b0b0;width: 20px;margin-left: 20px"></div>   
+                                        <div class="lc-tubiao"><p class="text-center">...</p></div>
+                                        <p style="padding: 0 21px;" class="text-left">现代化简约风格</p>
+
+                                    </a>
+                                </li>
+
+                                <li class="item">
+                                   
+                                      <a class="tap"   href="design/d6/122.html" title="工业风装修之三">
+                                        <div style="height: 300px" class="thumb"><img  class="lazy" src="Public/img/1-1PR21FU4U1.jpg" alt="工业风装修之四" title="工业风装修之四"></div>
+
+                                        <h3 style="padding: 0 21px;" class="name">巨人网络</h3>
+                                        <div style="border:1px solid #b0b0b0;width: 20px;margin-left: 20px"></div>   
+                                        <div class="lc-tubiao"><p class="text-center">...</p></div>
+                                        <p style="padding: 0 21px;" class="text-left">现代化简约风格</p>
+                                        </a>
+                                </li>
+                                <li class="item">
+                                    <a class="tap" href="design/d6/122.html" title="工业风装修之三">
+
+                                    <div style="height: 300px" class="thumb"><img class="lazy" src="Public/img/1-1PR21FU4U1.jpg" alt="工业风装修之三" title="工业风装修之三"></div>
+                                       <h3 style="padding: 0 21px;" class="name">巨人网络</h3>
+                                        <div style="border:1px solid #b0b0b0;width: 20px;margin-left: 20px"></div>   
+                                        <div class="lc-tubiao"><p class="text-center">...</p></div>
+                                        <p style="padding: 0 21px;" class="text-left">现代化简约风格</p>
+
+                                    </a>
+                                </li>
+
+
+
+                            </ul>
+
+                        </div>
+
+                    </div>                
+
+                    <div class="module-scroll tabcon-scroll">
+
+                        <div class="view"  style="height: 408px;margin-top: -20px">
+
+                            <ul class="list">
+
+                                <li class="item">
+                                   
+                                      <a class="tap"   href="design/d6/122.html" title="工业风装修之三">
+                                        <div style="height: 300px" class="thumb"><img  class="lazy" src="Public/img/1-1PR21FU4U1.jpg" alt="工业风装修之四" title="工业风装修之四"></div>
+
+                                        <h3 style="padding: 0 21px;" class="name">巨人网络</h3>
+                                        <div style="border:1px solid #b0b0b0;width: 20px;margin-left: 20px"></div>   
+                                        <div class="lc-tubiao"><p class="text-center">...</p></div>
+                                        <p style="padding: 0 21px;" class="text-left">现代化简约风格</p>
+                                        </a>
+                                </li>
+                                <li class="item">
+                                    <a class="tap" href="design/d6/122.html" title="工业风装修之三">
+
+                                    <div style="height: 300px" class="thumb"><img class="lazy" src="Public/img/1-1PR21FU4U1.jpg" alt="工业风装修之三" title="工业风装修之三"></div>
+                                       <h3 style="padding: 0 21px;" class="name">巨人网络</h3>
+                                        <div style="border:1px solid #b0b0b0;width: 20px;margin-left: 20px"></div>   
+                                        <div class="lc-tubiao"><p class="text-center">...</p></div>
+                                        <p style="padding: 0 21px;" class="text-left">现代化简约风格</p>
+
+                                    </a>
+                                </li>
+
+                                <li class="item">
+                                   
+                                      <a class="tap"   href="design/d6/122.html" title="工业风装修之三">
+                                        <div style="height: 300px" class="thumb"><img  class="lazy" src="Public/img/1-1PR21FU4U1.jpg" alt="工业风装修之四" title="工业风装修之四"></div>
+
+                                        <h3 style="padding: 0 21px;" class="name">巨人网络</h3>
+                                        <div style="border:1px solid #b0b0b0;width: 20px;margin-left: 20px"></div>   
+                                        <div class="lc-tubiao"><p class="text-center">...</p></div>
+                                        <p style="padding: 0 21px;" class="text-left">现代化简约风格</p>
+                                        </a>
+                                </li>
+                                <li class="item">
+                                    <a class="tap" href="design/d6/122.html" title="工业风装修之三">
+
+                                    <div style="height: 300px" class="thumb"><img class="lazy" src="Public/img/1-1PR21FU4U1.jpg" alt="工业风装修之三" title="工业风装修之三"></div>
+                                       <h3 style="padding: 0 21px;" class="name">巨人网络</h3>
+                                        <div style="border:1px solid #b0b0b0;width: 20px;margin-left: 20px"></div>   
+                                        <div class="lc-tubiao"><p class="text-center">...</p></div>
+                                        <p style="padding: 0 21px;" class="text-left">现代化简约风格</p>
+
+                                    </a>
+                                </li>
+                                
+
+
+                            </ul>
+
+                        </div>
+
+                    </div> 
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="lc"> 
+            <div class='container'>
+                <div class="between"></div>
+                <p class="text-center"><img src="Index/img/lc.jpg" alt=""></p>
+                <p class="text-center">7项免费服务,切实保障业主权益</p><br>
+                <a href="">
+              <div class="row">
+
+                <div class="lc-box" id="lc1" onmouseover = "lc1over()" onmouseout="lc1out()">
+                   <img id="SSS"  src="Index/img/tubiao/lc1.png" alt="">
+                    <p id="lc-texts" class="lc-texts text-center">在线预约</p>
+                </div>
+             
+                <div class="lc-box" id="lc2" onmouseover = "lc2over()" onmouseout="lc2out()">
+                   <img id="SSS2" src="Index/img/tubiao/lc2.png" alt="">
+                    <p id="lc-texts2" class="text-center">沟通需求</p>
+                </div>
+
+                <div class="lc-box" id="lc3" onmouseover = "lc3over()" onmouseout="lc3out()">
+                   <img id="SSS3" src="Index/img/tubiao/lc3.png" alt="">
+                    <p id="lc-texts3" class="text-center">设计方案</p>
+                </div>
+             
+                <div class="lc-box" id="lc4" onmouseover = "lc4over()" onmouseout="lc4out()">
+                   <img id="lc4-img"  src="Index/img/tubiao/lc4.png" alt="">
+                    <p id="lc-texts4" class="text-center">概算价格</p>
+                </div>
+
+                <div class="lc-box" id="lc5" onmouseover = "lc5over()" onmouseout="lc5out()">
+                   <img id="lc5-img"  src="Index/img/tubiao/lc5.png" alt="">
+                    <p id="lc-texts5" class="text-center">签订合同</p>
+                </div>
+             
+                <div class="lc-box" id="lc6" onmouseover = "lc6over()" onmouseout="lc6out()">
+                   <img id="lc6-img"  src="Index/img/tubiao/lc6.png" alt="">
+                    <p id="lc-texts6" class="text-center">进场施工</p>
+                </div>
+
+                <div class="lc-box" id="lc7" onmouseover = "lc7over()" onmouseout="lc7out()">
+                   <img id="lc7-img"  src="Index/img/tubiao/lc7.png" alt="">
+                    <p id="lc-texts7" class="text-center">竣工验收</p>
+                </div> 
+              </div>
+
+              </a>
+            </div>  
+        </div> 
+ 
+
+
+        <div style="width: 100%;height:10px;"></div>
+
+
+
+<style>
+        [v-cloak] {
+          display: none ;
+        }
+
+/* swiper */
+ 
+    .swiper-container {
+        width: 900px;
+        height: 400px;
+        margin: 0 auto;
+    }
+    .swiper-slide {
+        text-align: center;
+        font-size: 28px;
+        height: 400px;
+        background: #fff;
+ 
+    }
+
+
+    .demo{
+        width: 100%;
+        height: 450px;
+        background: #F5F5F5;
+        padding: 20px;
+    }
+
+    .demo-box{
+        width: 1200px;
+        height: 400px;
+        margin: 0 auto;
+    }
+
+    .demo-right{
+        width: 900px;
+        height: 400px;
+        float: right;
+    }
+    .demo-left{
+        width: 280px; 
+        height: 400px; 
+        visibility: visible;
+        background: yellow;
+    }
+</style>
+
+<div class="demo">
+
+    <div class="demo-box">
+        <div class="demo-right">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">Slide 1</div>
+                    <div class="swiper-slide">Slide 2</div>
+                    <div class="swiper-slide">Slide 3</div>
+                    <div class="swiper-slide">Slide 4</div>
+                    <div class="swiper-slide">Slide 5</div>
+                    <div class="swiper-slide">Slide 6</div>
+                    <div class="swiper-slide">Slide 7</div>
+                    <div class="swiper-slide">Slide 8</div>
+                    <div class="swiper-slide">Slide 9</div>
+                    <div class="swiper-slide">Slide 10</div>
+                </div>
+             
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+        <div class="demo-left"></div>
+    </div>
+
+
+ 
+
+</div>
+
+
+
+
+
+<hr>
+ 
+
+        <div style="background: #F5F5F5" class="idx-house">  
+                <p class="text-center"><img src="Index/img/sjtd.png" alt=""></p>
+                <p class="text-center">您的专属设计师，一对一私人订制</p>
+            <div style="width: 1200px;margin:0 auto;height: 380px" class="wrap">
+
+                <ul class="house-list">
+
+
+                                <div class="row">
+                                  <div class="col-md-3"> 
+                                        <li style="width:280px;height:380px" class="item wow fadeInUp animated">
+                                            <div class="info">
+                                                    <h1>设计<br>团队</h1>
+                                                    <p>Design team</p>
+                                                    <div style="width:80px;height:1px;background:rgba(224,224,224,1);margin-left: 60px;"></div><br>
+                                                     <p> 设计团队是有着工作经验十年  设计经验8年以上的团队设计 设计经验8年以 团队是有着工作经验 </p>   
+                                                     <button style="width:65px; height:34px;margin-right:20px;margin-top:10px; border:1px solid #b0b0b0; border-radius:5px;background: #fff">MORE</button>
+                                            </div> 
+                                        </li>
+
+
+                                  </div>
+                                  <div class="col-md-9">
+                    
+
+
+
+                                    <div class="box">
+                                        <div>
+                                        <dl id="roll">
+                                            <dd>
+                                                <li style="width: 100%;height:380px" class="item wow fadeInUp animated">
+                                                    <a href="project/p3/141.html" class="tap">
+
+                                                    <div class="thumb"><img src="Index/img/user2.jpg" alt="新中式设计君临" title="新中式设计君临天下"><i class="cover"></i></div>
+
+                                                    <div class="words">
+
+                                                            <h3 class="hover title">范冰冰</h3>
+                                                            <p class="hover intro">设123计经验8年以上</p>
+                                                            <span style="width: 100px;font-size: 10px;border-radius: 5px;background: #F2A613;color:#fff;" class="hover symbol">查看详情</span>
+                                                    </div>
+
+                                                    </a>
+                                                </li>
+                                            </dd>
+
+                                            <dd>
+                                                <li style="width: 100%;height:380px" class="item wow fadeInUp animated">
+                                                    <a href="project/p3/141.html" class="tap">
+
+                                                    <div class="thumb"><img src="Index/img/user.jpg" alt="新中式设计君临" title="新中式设计君临天下"><i class="cover"></i></div>
+
+                                                    <div class="words">
+
+                                                            <h3 class="hover title">范冰冰</h3>
+                                                            <p class="hover intro">设123计经验8年以上</p>
+                                                            <span style="width: 100px;font-size: 10px;border-radius: 5px;background: #F2A613;color:#fff;" class="hover symbol">查看详情</span>
+                                                    </div>
+
+                                                    </a>
+                                                </li>
+                                            </dd>
+
+                                            <dd>
+                                                <li style="width: 100%;height:380px" class="item wow fadeInUp animated">
+                                                    <a href="project/p3/141.html" class="tap">
+
+                                                    <div class="thumb"><img src="Index/img/user3.jpg" alt="新中式设计君临" title="新中式设计君临天下"><i class="cover"></i></div>
+
+                                                    <div class="words">
+
+                                                            <h3 class="hover title">范冰冰</h3>
+                                                            <p class="hover intro">设123计经验8年以上</p>
+                                                            <span style="width: 100px;font-size: 10px;border-radius: 5px;background: #F2A613;color:#fff;" class="hover symbol">查看详情</span>
+                                                    </div>
+
+                                                    </a>
+                                                </li>
+                                            </dd>
+
+                                            <dd>
+                                                <li style="width: 100%;height:380px" class="item wow fadeInUp animated">
+                                                    <a href="project/p3/141.html" class="tap">
+
+                                                    <div class="thumb"><img src="Index/img/user4.jpg" alt="新中式设计君临" title="新中式设计君临天下"><i class="cover"></i></div>
+
+                                                    <div class="words">
+
+                                                            <h3 class="hover title">范冰冰</h3>
+                                                            <p class="hover intro">设123计经验8年以上</p>
+                                                            <span style="width: 100px;font-size: 10px;border-radius: 5px;background: #F2A613;color:#fff;" class="hover symbol">查看详情</span>
+                                                    </div>
+
+                                                    </a>
+                                                </li>
+                                            </dd>
+
+                                            <dd>
+                                                <li style="width: 100%;height:380px" class="item wow fadeInUp animated">
+                                                    <a href="project/p3/141.html" class="tap">
+
+                                                    <div class="thumb"><img src="Index/img/user5.jpg" alt="新中式设计君临" title="新中式设计君临天下"><i class="cover"></i></div> 
+                                                    <div class="words"> 
+                                                            <h3 class="hover title">范冰冰</h3>
+                                                            <p class="hover intro">设123计经验8年以上</p>
+                                                            <span style="width: 100px;font-size: 10px;border-radius: 5px;background: #F2A613;color:#fff;" class="hover symbol">查看详情</span>
+                                                    </div> 
+                                                    </a>
+                                                </li>
+                                            </dd>  
+    
+                                        </dl>
+
+                                        </div>
+
+                                    </div>   
+
+                                  </div>
+                                </div> 
+
+                </ul>
+
+            </div>
+
+        </div> 
+ 
+
+        <div class="quote">
+                <div class="between"></div>
+                <p class="text-center"><img src="Index/img/zxbj.png" alt=""></p>
+                <p class="text-center">简单计算，预估报价</p><br>
+                <div class="qutes container">
+                    <div class="row">
+                      <div class="col-md-6">
+                            <h3 class="text-center">装修报表计算器</h3>
+                            <form action="">
+                                 <div class="form-group">
+                                    <select  class="form-control" name="">
+                                        <option value="">请选择您的装修类型</option>
+                                        <option value="">办公室</option>
+                                        <option value="">培训</option>
+                                        <option value="">其他</option>
+                                    </select>
+                                  </div>
+                                 <div class="form-group">
+                                    <select  class="form-control" name="">
+                                        <option value="">请选择您的装修面积</option>
+                                        <option value="">办公室</option>
+                                        <option value="">培训</option>
+                                        <option value="">其他</option>
+                                    </select>
+                                  </div>
+
+
+                                  <div class="form-group"> 
+                                   <input style="  width:378px;height:50px;background:rgba(255,255,255,1);" type="text" class="input-name"  placeholder="请输入您的地址">
+                                  </div>                                  
+
+                                  <div class="form-group"> 
+                                    <input style="  width:120px;height:50px;background:rgba(255,255,255,1);" type="text" class="input-name"  placeholder="您的姓名">
+                                    <input style="  width:234px;height:50px;background:rgba(255,255,255,1);margin-left: 20px" type="text" class="input-name"  placeholder="请输入您的手机号">
+                                  </div> 
+                                  <p class="text-center"><span>报价结果发送到手机，我们将严格保护你的隐私和个人信息</span></p>
+                                  <br>
+
+                                  <button style="  width:370px;height:60px;background:rgba(255,195,12,1);margin-left: 70px;color:#fff;margin-top: -7px" type="submit" class="btn btn-default"><img src="Index/img/tubiao/jsq.png" alt=""> 开始计算报价</button>
+                            </form>
+    
+                      </div>
+                      <div class="col-md-6">
+                           <h3 class="text-center">目前已有<span>423</span>人获取装修报价</h3>
+                           <br>
+                           <img src="Index/img/baojia1.jpg" alt="">
+                           <img src="Index/img/baojia1.jpg" alt="">
+                           <img src="Index/img/baojia1.jpg" alt="">
+ 
+                            <form action=""> 
+                                     <br> 
+                                    <input style="  width:440px;position: absolute;height:60px;background:rgba(255,255,255,1);margin-left: 1px" type="text" class="input-name"  placeholder="备注：本报价按照您所输面积估算，不代表实际结算价格">
+                                    <button style="width:110px;height:62px;background:rgba(255,195,12,1);color:#fff;margin-left: 439px;margin-top: -1px" type="text" class="input-name btn"><i  class="glyphicon glyphicon-earphone"></i> 电话咨询</button>  
+                            </form>
+                            <div class="between"></div> 
+                      </div>
+                    </div>
+                </div>
+        </div> 
+
+        <div style="width: 100%;height:10px;"></div> 
+
+        <div style="background: #F5F5F5" class="idx-house">  
+                <p class="text-center"><img src="Index/img/zxbk.png" alt=""></p>
+                <p class="text-center">名万装饰把最新的行业动态带给您</p>
+            <div style="width: 1200px;margin:0 auto;height: 360px" class="wrap">
+
+                <ul class="house-list"> 
+                    <li style="width:300px;height:320px;cursor:pointer;" class="item wow fadeInUp animated">
+                        <div class="info">
+                            <h3><img src="Index/img/tubiao/bk1.png" alt=""><br>设计必看</h3>
+                            <div style="width:80px;height:1px;background:rgba(224,224,224,1);margin-left: 75px;"></div><br>
+                             <p>设计团队是有着工作经验十年......</p>
+                             <p>设计团队是有着工作经验十年......</p>
+                             <p>设计团队是有着工作经验十年......</p>
+                             <p>设计团队是有着工作经验十年......</p>
+                             <p>设计团队是有着工作经验十年......</p>
+                        </div> 
+                    </li>
+
+                    <li style="width:300px;height:320px;cursor:pointer;" class="item wow fadeInUp animated">
+                        <div class="info">
+                            <h3><img src="Index/img/tubiao/bk2.png" alt=""><br>施工注意</h3>
+                            <div style="width:80px;height:1px;background:rgba(224,224,224,1);margin-left: 75px;"></div><br>
+                             <p>设计团队是有着工作经验十年......</p>
+                             <p>设计团队是有着工作经验十年......</p>
+                             <p>设计团队是有着工作经验十年......</p>
+                             <p>设计团队是有着工作经验十年......</p>
+                             <p>设计团队是有着工作经验十年......</p>
+                        </div> 
+                    </li>
+
+                    <li style="width:300px;height:320px;cursor:pointer;" class="item wow fadeInUp animated">
+                        <div class="info">
+                            <h3><img src="Index/img/tubiao/bk3.png" alt=""><br>建材选择</h3>
+                            <div style="width:80px;height:1px;background:rgba(224,224,224,1);margin-left: 75px;"></div><br>
+                             <p>设计团队是有着工作经验十年......</p>
+                             <p>设计团队是有着工作经验十年......</p>
+                             <p>设计团队是有着工作经验十年......</p>
+                             <p>设计团队是有着工作经验十年......</p>
+                             <p>设计团队是有着工作经验十年......</p>
+                        </div> 
+                    </li>
+
+                    <li style="width:300px;height:320px;cursor:pointer;" class="item wow fadeInUp animated">
+                        <div class="info">
+                            <h3><img src="Index/img/tubiao/bk4.png" alt=""><br>工装搭配</h3>
+                            <div style="width:80px;height:1px;background:rgba(224,224,224,1);margin-left: 75px;"></div><br>
+                            <p>设计团队是有着工作经验十年......</p>  
+                            <p>设计团队是有着工作经验十年......</p>
+                            <p>设计团队是有着工作经验十年......</p>
+                            <p>设计团队是有着工作经验十年......</p>
+                        </div> 
+                    </li> 
+
+                </ul>
+
+            </div>
+
+        </div> 
+
+         
+        <div style="width: 1228px" class="container">
+            <div class="between"></div> 
+            <p class="text-center"><img src="Index/img/fwbz.png" alt=""></p>
+            <h4 class="texts text-center">一站式服务专家</h4> 
+            <div class="content guarantee">
+         
+
+                <div class="container-bz">
+                    <div class="home-rz">
+                        <ul id="fengqin"> 
+
+                                <li style="left: 0px; z-index: 6;" cursor:pointer;class="active">
+                                    <div class="left">
+                                        <div class="shadow">
+                                            <div style="height:100px" class="title">资深设计师,精心打造潮流风格满足您对空间的设计</div>
+                                        </div>
+                                        <img src="Public/img/20190118170612_7927.jpg" data-original="images/20190118170612_7927.jpg" class="lazy_img load-over" alt="" style="display: inline;">
+                                    </div>
+                                    <div class="right">
+                                        <div class="title text-title">原创设计</div>
+                                        <div class="sub-title text-sub">Original design</div>
+                                    </div>
+                                </li> 
+
+                                <li style="left: 100px; z-index: 5;cursor:pointer;" class="">
+                                    <div class="left">
+                                        <div class="shadow">
+                                            <div style="height:100px" class="title">名万装饰拥有八大自主工班，为您的家保驾护航</div>
+                                        </div>
+                                        <img src="Public/img/20190118170653_3000.jpg" data-original="images/20190118170653_3000.jpg" class="lazy_img load-over" alt="" style="display: inline;">
+                                    </div>
+                                    <div class="right">
+                                        <div class="title text-title">天龙八部</div>
+                                        <div class="sub-title text-sub">Tian long ba bu</div>
+                                    </div>
+                                </li> 
+
+                                <li style="left: 200px; z-index: 4;cursor:pointer;" class="">
+                                    <div class="left">
+                                        <div class="shadow">
+                                            <div style="height:100px" class="title">有一批专业化的施工队伍标准服务每个家</div>
+                                        </div>
+                                        <img src="Public/img/20190118170702_7586.jpg" data-original="images/20190118170702_7586.jpg" class="lazy_img load-over" alt="" style="display: inline;">
+                                    </div>
+                                    <div class="right">
+                                        <div class="title text-title">匠心工艺</div>
+                                        <div class="sub-title text-sub">Craft of ingenuity</div>
+                                    </div>
+                                </li> 
+
+                                <li style="left: 300px; z-index: 3;cursor:pointer;" class="">
+                                    <div class="left">
+                                        <div class="shadow">
+                                            <div style="height:100px" class="title">国际一线品牌，全球选材，品质有保障</div>
+                                        </div>
+                                        <img src="Public/img/20190118170717_3744.jpg" data-original="images/20190118170717_3744.jpg" class="lazy_img load-over" alt="" style="display: inline;">
+                                    </div>
+                                    <div class="right">
+                                        <div class="title text-title">全球选材</div>
+                                        <div class="sub-title text-sub">Material selection</div>
+                                    </div>
+                                </li> 
+
+                                <li style="left: 400px; z-index: 2;cursor:pointer;" class="">
+                                    <div class="left">
+                                        <div class="shadow">
+                                            <div style="height:100px" class="title">从基材到成品层层验收，全屋环保才是真环保</div>
+                                        </div>
+                                        <img src="Public/img/20190118170814_0986.jpg" data-original="images/20190118170814_0986.jpg" class="lazy_img load-over" alt="" style="display: inline;">
+                                    </div>
+                                    <div class="right">
+                                        <div class="title text-title">环保施工</div>
+                                        <div class="sub-title text-sub">Environmental</div>
+                                    </div>
+                                </li> 
+
+                                <li style="left: 500px; z-index: 1;cursor:pointer;" class="">
+                                    <div class="left">
+                                        <div class="shadow">
+                                            <div style="height:100px" class="title">从基材到成品层层验收全屋环保才是真环保</div>
+                                        </div>
+                                        <img src="Public/img/20190118170833_5628.jpg" data-original="images/20190118170833_5628.jpg" class="lazy_img load-over" alt="" style="display: inline;">
+                                    </div>
+                                    <div class="right">
+                                        <div class="title text-title">终生质保</div>
+                                        <div class="sub-title text-sub">Lifetime warranty</div>
+                                    </div>
+                                </li> 
+
+                        </ul>
+                    </div>
+                </div>
+            </div>  
+        </div>
+        <div class="container">
+            <div class="between"></div> 
+            <div class="between"></div> 
+            <p class="text-center"><img src="Index/img/yzms.png" alt=""></p>
+            <h4 class="texts text-center">10万业主选择名万，选择名万没有错</h4> 
+
+            <div class="container"> 
+
+                <hr>
+
+                <div style="cursor:pointer;" class="box-hover-modal">
+
+                    <div class="box-hover-modal-con"></div>
+
+
+                        <div class="box-hover-modal-m">
+                        <div class="box-user"><img src="Index/img/yz1.jpg" alt=""></div>
+                        <br>
+                        <div style="width: 210px;height:60px;text-indent:-10px;margin:0 auto;"><span class="text-center">全程轻松把工作交给名万，偶然去转转，在工作期间轻 看看图片就</span></div>
+            
+                        
+                        <a class="box-btns btn" href="#" role="button">MORE</a>
+
+                    </div>
+                    
+                </div> 
+
+                <div style="cursor:pointer;" class="box-hover-modal">
+
+                    <div class="box-hover-modal-con"></div>
+
+
+                        <div class="box-hover-modal-m">
+                        <div class="box-user"><img src="Index/img/yz1.jpg" alt=""></div>
+                        <br>
+                        <div style="width: 210px;height:60px;text-indent:-10px;margin:0 auto;"><span class="text-center">全程轻松把工作交给名万，偶然去转转，在工作期间看看图片就</span></div>
+                       
+                        <a class="box-btns btn" href="#" role="button">MORE</a>
+
+                    </div>
+
+
+                </div>
+
+                <div style="cursor:pointer;" class="box-hover-modal">
+
+                    <div class="box-hover-modal-con"> </div>
+
+                        <div class="box-hover-modal-m">
+                        <div class="box-user"><img src="Index/img/yz1.jpg" alt=""></div>
+                        <br>
+                        <div style="width: 210px;height:60px;text-indent:-10px;margin:0 auto;"><span class="text-center">全程轻松把工作交给名万，偶然去转转，在工作期间看看图片就</span></div>
+            
+                        
+                        <a class="box-btns btn" href="#" role="button">MORE</a>
+
+                    </div>
+                    
+                </div>
+         
+
+                <div style="cursor:pointer;" class="box-hover-modal">
+
+                    <div class="box-hover-modal-con"></div>
+
+
+                        <div class="box-hover-modal-m">
+                        <div class="box-user"><img src="Index/img/yz1.jpg" alt=""></div>
+                        <br>
+                        <div style="width: 210px;height:60px;text-indent:-10px;margin:0 auto;"><span class="text-center">全程轻松把工作交给名万，偶然去转转，在工作期间看看图片就</span></div>
+            
+                        
+                        <a class="box-btns btn" href="#" role="button">MORE</a>
+
+                    </div>
+                    
+                </div> 
+            </div>
+
+        </div>
+
+
+        <div class="between"></div>
+        <div style="cursor:pointer;" class="mingwan"><p class="text-center"><img src="Index/img/mingwans.jpg" alt=""></p></div>
+
+        <div class="between"></div>
+
+ 
+ 
+
+        <div class="yq">
+                
+            <div class="container">
+
+                <div class='tabs' id="tabs">
+                    <ul class='horizontal'> 
+                        <li rel="tab-2" relHref="T1.html" class="selectActive">友情链接</li> 
+                        <li rel="tab-4" relHref="T2.html">教育机构</li>
+                        <li rel="tab-3" relHref="T3.html">办公空间</li>
+                    </ul> 
+                    <div rel='tab-2'><br>
+                        <a href="">名万装饰</a>
+                        <a href="">名万装饰</a>
+                        <a href="">名万装饰</a>
+                        <a href="">名万装饰</a>
+                        <a href="">名万装饰</a>
+                        <a href="">名万装饰</a>
+                        <a href="">名万装饰</a>
+                    </div>
+                    <div rel='tab-3'><br>
+                        <a href="">名万装饰</a>
+                        <a href="">名万s123装饰</a>
+                        <a href="">名万装饰</a>
+                        <a href="">名万123装饰</a>
+                        <a href="">名万装饰</a>
+                        <a href="">名万123装饰</a>
+                        <a href="">名万装饰</a>
+                    </div>
+                    <div rel='tab-4'><br>
+                        <a href="">123名万装饰</a>
+                        <a href="">名万123装饰</a>
+                        <a href="">名123万装饰</a>
+                        <a href="">名万装饰</a>
+                        <a href="">名万装饰</a>
+                        <a href="">名万123装饰</a>
+                        <a href="">名万装饰</a>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+        </div>
+
+      <footer class="main-footer"> 
+           <div class="between"></div> 
+            <div class="container">
+                <div class="row">
+                  <div class="col-md-4">
+                    <div class="row">
+                      <div class="col-md-3">
+                            <ul class=" nav nav-pills"> 
+                              <li style="width: 120px;"><a style="background:#2C2C2C;color:#fff" href="#"><h4>关于我们</h4></a></li>
+                              <li style="width: 100px;margin-top: -12px"><a style="background:#2C2C2C;color:#fff" href="#">名万介绍</a></li>
+                              <li style="width: 100px;margin-top: -12px"><a style="background:#2C2C2C;color:#fff" href="#">名万品牌</a></li>
+                              <li style="width: 100px;margin-top: -12px"><a style="background:#2C2C2C;color:#fff" href="#">企业文化</a></li> 
+                            </ul>
+                      </div>
+                      <div class="col-md-3">
+                            <ul class="nav nav-pills">
+                              <li style="width: 120px;"><a style="background:#2C2C2C;color:#fff" href="#"><h4>匠心工艺</h4></a></li>
+                              <li style="width: 100px;margin-top: -12px"><a style="background:#2C2C2C;color:#fff" href="#">工装展示</a></li>
+                              <li style="width: 100px;margin-top: -12px"><a style="background:#2C2C2C;color:#fff" href="#">工装工艺</a></li>
+                              <li style="width: 100px;margin-top: -12px"><a style="background:#2C2C2C;color:#fff" href="#">案例展示</a></li> 
+                            </ul>
+                      </div>
+                      <div class="col-md-3">
+                            <ul class="nav nav-pills">
+                              <li style="width: 120px;"><a style="background:#2C2C2C;color:#fff" href="#"><h4>装修风格</h4></a></li>
+                              <li style="width: 100px;margin-top: -12px"><a style="background:#2C2C2C;color:#fff" href="#">北约风格</a></li>
+                              <li style="width: 100px;margin-top: -12px"><a style="background:#2C2C2C;color:#fff" href="#">欧式风格</a></li>
+                              <li style="width: 100px;margin-top: -12px"><a style="background:#2C2C2C;color:#fff" href="#">中式风格</a></li> 
+                              <li style="width: 100px;margin-top: -12px"><a style="background:#2C2C2C;color:#fff" href="#">简约风格</a></li>  
+                              <li style="width: 100px;margin-top: -12px"><a style="background:#2C2C2C;color:#fff" href="#">现代风格</a></li>  
+                            </ul>
+                      </div>
+                      <div class="col-md-3">
+                            <ul class="nav nav-pills">
+                              <li style="width: 120px;"><a style="background:#2C2C2C;color:#fff" href="#"><h4>装修咨询</h4></a></li>
+                              <li style="width: 100px;margin-top: -12px"><a style="background:#2C2C2C;color:#fff" href="#">装修百科</a></li>
+                              <li style="width: 100px;margin-top: -12px"><a style="background:#2C2C2C;color:#fff" href="#">装修攻略</a></li>
+                              <li style="width: 100px;margin-top: -12px"><a style="background:#2C2C2C;color:#fff" href="#">装修动态</a></li> 
+                            </ul>
+                      </div>
+                    </div>
+
+
+
+
+
+                  </div>
+                  <div class="ewm col-md-4"> 
+                     <div class="row">
+                        <a href=""><div class="col-md-6"><img src="Index/img/ewm.jpg" alt=""><p>名万微信公众号</p></div></a>
+                        <a href=""><div class="col-md-6"><img src="Index/img/ewm.jpg" alt=""><p>名万官方微博</p></div></a>
+                    </div>
+                </div>
+                  <div class="col-md-4">
+                  <h3 style="color: #fff"><span style="color: #F2A613; " class="glyphicon glyphicon-earphone"></span> 预约报名热线</h3>
+                      <h1 style="color: #F2A613; " >400-8800-421</h1>  
+                  </div>
+                </div> 
+            </div>
+
+      </footer> 
+      <footer class="main-footers"> 
+        <p class="text-center">杭州名万装饰工程有限公司</p>
+        <p class="text-center">公司地址：杭州市拱墅区沈半路文创园198号</p>
+        <p class="text-center">浙ICP备16010905号 Copyright © www.mingwan.com</p> 
+       <div style="height:10px"></div> 
+      </footer> 
+
+ 
+    <div style="margin-left: 2%" class="right-nav">
+
+      <ul>
+
+        <a href=""   data-toggle="modal" data-target="#myModal"><li class="yuye">
+ 
+          <div class="yuye-logo"></div>
+ 
+
+        </li></a>
+
+       <a href=""> <li class="zixun">
+
+          <div class="zixun-logo"></div>
+
+        </li></a>
+
+       <a href=""> <li class="baojia">
+
+          <div class="baojia-logo"></div>
+
+        </li></a>
+        <div style="height: 2px;width: 100%"></div>
+
+       <a href=""> <li class="weixin">
+
+          <div class="weixin-logo"></div>
+
+        </li></a>
+
+       <a href=""> <li class="top">
+
+          <div class="top-logo"></div>
+
+        </li></a> 
+
+     
+      </ul>
+
+    </div>
+<script src="https://www.jq22.com/jquery/jquery-3.3.1.js"></script>
+
+<!-- Button trigger modal -->
+ 
+
+<!-- Modal -->
+<div style="margin-top: 200px" class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div style="width: 890px;"  class="modal-dialog" role="document">
+    <div style="background:rgba(0,0,0,0.1);border:0" class="modal-content">
+ 
+      <div class="modal-body">
+        <div class="row">
+          <div style="background: #fff;height: 301px" class="col-md-7">
+            <h3 class="text-center">算一算，装修需要多少钱?</h3>
+
+                <form>
+                  <div class="form-group">
+ 
+                    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="请输入您的姓名">
+                  </div>
+                  <div class="form-group">
+ 
+                    <select class="form-control" name="" id="">
+                        <option value="">选择装修类型</option>
+                        <option value="">2</option>
+                        <option value="">3</option>
+                    </select> 
+                  </div>                  
+                  <div class="form-group">
+ 
+                    <select class="form-control" name="" id="">
+                        <option value="">请输入面积</option>
+                        <option value="">2</option>
+                        <option value="">3</option>
+                    </select> 
+                  </div>
+ 
+                  <button style="background:rgba(242,166,19,1);width: 100%;color:#fff" type="submit" class="btn btn-default">立即获取</button>
+                </form>
+                <br>
+                <p class="text-center">* 我们将严格保护您的隐私和个人信息</p>
+
+          </div>
+          <div style="background:rgba(0,0,0,0.9);" class="col-md-5">
+            <h3 style="color: #fff" class="text-center">免费咨询热线</h3>
+            <h3 style="color: #fff" class="text-center">400-8800-421</h3>
+            <p class="text-center"><img src="Index/img/ewm.jpg" alt=""></p>
+            <h3 style="color: #fff" class="text-center">扫一扫，领取装修大礼包！</h3>
+            <br>
+          </div>
+        </div>
+      </div>
+ 
+    </div>
+  </div>
+</div>
+ 
+
+    <script type="text/javascript" src="Index/js/jquery.lazyload.js"></script>
+
+    <script type="text/javascript" src="Index/js/jquery.focusimg.js"></script>
+
+    <script type="text/javascript" src="Index/js/jquery.tumble.js"></script>
+
+    <script type="text/javascript" src="Index/js/swiper.min.js"></script>
+
+    <script type="text/javascript" src="Index/js/wow.min.js"></script>
+
+    <script type="text/javascript" src="Index/js/base.js"></script>
+    <script src="Index/js/super_slider.js" type="text/javascript"></script> 
+    <script src="Public/bootstrap/js/bootstrap.min.js"></script>    
+    <script src="Index/xt/style-xt.js"></script>
+    <script src="Index/js/index.js"></script>
+
+
+    <!-- Swiper JS -->
+    <script src="Public/swiper/swiper.min.js"></script>
+    <!-- Initialize Swiper -->
+    <!-- Initialize Swiper -->
+    <script>
+    var swiper = new Swiper('.swiper-container', {
+ 
+        pagination: '.swiper-pagination',
+        autoplay:3000,
+        slidesPerView: 3,
+
+        paginationClickable: true,
+        spaceBetween: 30
+    });
+    </script>
+</body>
+</html> 

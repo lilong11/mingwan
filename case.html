@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+ <html lang="en">
+ <head>
+   <meta charset="UTF-8">
+   <title>名万装饰-装修案例 </title> 
+   <link href="Include/css/case-index.css" rel="stylesheet" /> 
+   <link href="Include/css/case.css" rel="stylesheet" /> 
+   <link href="Public/css/footer.css" rel="stylesheet" /> 
+
+
+   <link href="http://www.jq22.com/jquery/bootstrap-3.3.4.css" rel="stylesheet">
+ 
+
+  <script src="http://www.jq22.com/jquery/jquery-1.10.2.js"></script> 
+ 
+
+
+ 
+
+ 
+    <!-- <link rel="stylesheet" href="Index/css/index.css" />   -->
+  <!-- <link href="Public/bootstrap/css/bootstrap.min.css" rel="stylesheet" />   -->
+  <!-- <link rel="stylesheet" href="Public/css/footer.css"> -->
+ 
+ <script src="https://www.jq22.com/jquery/jquery-3.3.1.js"></script>
+
+
+  <script>
+
+    $(function(){
+
+      //调用插件boxhovermodal,一个操作元素,一个参数
+
+      //参数可以为空,默认为.box-hover-modal-m
+
+      $(".box-hover-modal").boxhovermodal(".box-hover-modal-m");
+
+    });
+
+  </script>
+
+ 
+
+ </head>
+ <body>
+ 
+
+    
+  <!-- nav开始 -->  
+    <style>
+        [v-cloak] {
+          display: none ;
+        }
+      </style>    
+    <div style='z-index:100;' id="parent"> 
+      <div id="select" v-cloak> 
+        <div class="cities">银川 </div>
+        <div class="cities">西安</div>
+        <div class="cities">郑州</div>
+        <div class="cities">南京</div>
+        <div class="cities">杭州</div>
+        <div class="cities">福州</div>
+        <div class="cities">广州</div>
+        <div class="cities">台北</div>
+        <div class="cities">南宁</div>
+        <div class="cities">昆明</div>
+        <div class="cities">成都</div>
+        <div class="cities">重庆</div>
+        <div class="cities">贵阳</div>
+        <div class="cities">长沙</div>
+        <div class="cities">南昌</div>
+        <div class="cities">合肥</div>
+        <div class="cities">武汉</div>
+        <div class="cities">上海</div>
+        <div class="cities">海口</div>
+        <div class="cities">香港</div>
+        <div class="cities">澳门</div>
+      </div>
+    </div>
+
+    <nav class="navbar navbar-default">
+        <div style="width:1320px;margin: 0 auto;">
+          <div class="container-fluid"> 
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav"> 
+                <li style="width: 210px;padding: 0px" ><a href="#">欢迎来到名万装饰官方网站!</a></li> 
+                <li style="width: 90px;padding: 0px"><a href="#"><span class="glyphicon glyphicon-map-marker"></span>       <input type="text" value="杭州" id="text"><!--  <span id="city">[切换]</span> --></a></li>  
+              </ul>
+ 
+              <ul class="nav navbar-nav navbar-right">
+                <li style="width: 100px;padding: 0px"><a href="#"><span class="colors">微信公众号</span></a></li>
+                <li style="width: 4px" class="su">|</li>
+                <li style="width: 70px;padding: 0px"><a href="#">微博</a></li> 
+                <li style="width: 4px" class="su">|</li>
+                <li style="width: 90px;padding: 0px"><a href="#">联系我们</a></li> 
+                <li style="width: 4px" class="su">|</li>
+                <li style="width: 150px;padding: 0px"><a href="#"><span class="colors"><span class="glyphicon glyphicon-phone-alt"></span> 400-8800-421</span></a></li>
+                <li style="width: 80px;padding: 0px"><a href="#"><span class="colors"> </a></li>
+ 
+              </ul>
+            </div> 
+          </div> 
+      </div>
+    </nav> 
+
+    <div  style="height: 110px"  class="navs">
+        <div style="width: 1300px" class="container">
+             <img style="margin-top: 10px" src="Index/img/max-log.jpg" alt=""> 
+ 
+                <ul class="nav nav-pills"> 
+
+                  <li style="width: 70px;height: 57px;margin-top: 30px;margin-left: 30px"  id="underline" role="presentation"><a style="background-color: #fff;padding: 0px" href="index.html"> 首页</a></li>
+                  <li style="width: 106px;height: 57px;margin-top: 30px" id="underline" role="presentation"><a style="background-color: #fff;padding: 0px" href="asMingwan.html"> 关于名万</a></li>
+                  <li style="width: 106px;height: 57px;margin-top: 30px" id="underline" role="presentation"><a style="background-color: #fff;padding: 0px" href="#"> 装修案例</a></li>
+                  <li style="width: 106px;height: 57px;margin-top: 30px" id="underline" role="presentation"><a style="background-color: #fff;padding: 0px" href="#"> 设计团队</a></li>
+                  <li style="width: 106px;height: 57px;margin-top: 30px" id="underline" role="presentation"><a style="background-color: #fff;padding: 0px" href="#"> 装修百科</a></li>
+                  <li style="width: 106px;height: 57px;margin-top: 30px" id="underline" role="presentation"><a style="background-color: #fff;padding: 0px" href="#"> 施工管理</a></li>
+                  <li style="width: 106px;height: 57px;margin-top: 30px" id="underline" role="presentation"><a style="background-color: #fff;padding: 0px" href="#"> 联系我们</a></li>
+                </ul>
+
+        </div>
+    </div> 
+  <!-- nav结束 --> 
+
+
+
+    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner" role="listbox">
+
+        <div class="item active">
+          <img src="Public/img/lbt1.jpg" alt="...">
+        </div>
+
+        <div class="item">
+          <img src="Public/img/lbt2.jpg" alt="...">
+        </div>
+ 
+      </div>
+
+      <!-- Controls -->
+      <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+
+
+ 
+   <div class="container">
+ <link rel="stylesheet" href="Include/css/style.css"> 
+<script src="Include/js/cast-jq.js"></script> 
+<div style="width:946px; margin:0 auto;">
+    <div class="clearfix">
+        <p class="shaixuan-tj floatLeft clearfix"> 
+            <i class="icon-angle-right"></i> 
+        </p> 
+    </div>
+    <div id="page-search-store" class="mb10 border sxcon">
+        <div class="search-by by-category relative">
+            <dl style="margin-top: -40px" class="relative clearfix">
+                <dt class="floatLeft"><a href="#">装修类型：</a></dt>
+                <dd class="floatLeft show-con">
+                    <a href="#" class="">全部</a>
+                    <a href="#" class="">办公案例</a>
+                    <a href="#" class="">餐饮空间</a>
+                    <a href="#" class="">酒店公寓</a>
+                    <a href="#" class="">商业展厅</a>
+                    <a href="#" class="">教育机构</a>
+                    <a href="#" class="">培训机构</a>
+                    <a href="#" class="">娱乐休闲</a>
+                    <a href="#" class="">医疗美容</a> 
+                </dd> 
+            </dl>
+            <dl style="margin-top: -20px" class="relative clearfix">
+                <dt class="floatLeft"><a href="#">装修风格：</a></dt>
+                <dd class="floatLeft show-con">
+                    <a href="#" class="">全部</a>
+                    <a href="#" class="">北欧风格</a>
+                    <a href="#" class="">简约风格</a>
+                    <a href="#" class="">中式风格</a>
+                    <a href="#" class="">欧美风格</a>
+                    <a href="#" class="">工业风格</a>
+                    <a href="#" class="">美式风格</a> 
+                </dd>
+                <!-- <dd class="floatLeft show-more"><h3 class="pointer clearfix"><span>更多</span><i class="icon-angle-down"></i></h3></dd> -->
+            </dl>
+
+ 
+            <dl  style="margin-top: -20px" class="relative clearfix" style="border-bottom:0">
+                <dt class="floatLeft"><a href="#">装修面积：</a></dt>
+                <dd class="floatLeft show-con">
+                    <a href="#" class="">全部</a> 
+                    <a href="#" class="">0-80㎡</a> 
+                    <a href="#" class="">80-200㎡</a> 
+                    <a href="#" class="">200-400㎡</a> 
+                    <a href="#" class="">400-600㎡</a> 
+                    <a href="#" class="">其他</a> 
+                </dd>
+            </dl>
+
+        </div>
+    </div>
+</div>
+<script>
+    $(function(){
+        $(".shaixuan-tj span.crumb-select-item").live('hover',function(event){
+            if(event.type=='mouseenter'){ 
+            $(this).addClass("crumb-select-itemon");
+            }else{ 
+            $(this).removeClass("crumb-select-itemon");
+            } 
+        });
+        $(".shaixuan-tj span.crumb-select-item").live('click', function(event){
+            event.preventDefault();
+            $(this).remove();
+            var TTR = $(this).find("em").text();
+            $(".show-con a").each(function(){
+                var TT = $(this).text();
+                    THI = $(this);
+                    THIPP = $(this).parents("dl");
+                if(TTR==TT){
+                    THI.removeClass("nzw12");
+                    THIPP.css("display","block");
+                }
+            })
+        });
+        $(".show-con a").click(function(event){
+            event.preventDefault();
+                 THIP = $(this).parents("dl");
+            if($(this).hasClass("nzw12")){
+            }else{
+                $(this).addClass("nzw12");
+                var zhiclass = $(this).parents("dd").siblings("dt").find("a").text();
+                    zhicon = $(this).text();
+                    tianjaneir="<span class='crumb-select-item'><a href='/'><b>"+zhiclass+"</b><em>"+zhicon+"</em><i class='glyphicon glyphicon-remove'></i></a></span>"
+                $(".shaixuan-tj").children().last().after(tianjaneir);
+                THIP.css("display","none");
+            }
+        });
+        $(".show-more").click(function(event){
+            event.preventDefault();
+            var ticon = $(this).find("i");
+                tspan = $(this).find("span");
+                if($(this).hasClass("zk")){
+                    $(this).siblings(".show-con").css("height","30px");
+                    ticon.removeClass("icon-angle-up");
+                    ticon.addClass("icon-angle-down");
+                    tspan.html("更多");
+                    $(this).removeClass("zk")
+                }else{
+                    $(this).siblings(".show-con").css("height","auto");
+                    ticon.removeClass("icon-angle-down");
+                    ticon.addClass("icon-angle-up");
+                    tspan.html("收起");
+                    $(this).addClass("zk")
+                }
+        });
+        $("#sxbtn").click(function(event){
+            event.preventDefault();
+            var xicon = $(this).find("span i");
+                xspan = $(this).find("span em");
+            if($(this).hasClass("zkon")){
+                xspan.text("收起筛选");
+                xicon.removeClass("icon-angle-down");
+                xicon.addClass("icon-angle-up");
+                $(".sxcon").slideDown();
+                $(this).removeClass("zkon")
+            }else{
+                xspan.text("查看筛选");
+                xicon.removeClass("icon-angle-up");
+                xicon.addClass("icon-angle-down");
+                $(".sxcon").slideUp();
+                $(this).addClass("zkon")
+            }
+        })
+
+
+    })
+</script> 
+
+   </div>
+
+
+
+
+ 
+ <div class="case img">
+   <div class="container">
+     
+      <div class="case-show">
+
+          <div class="box-hover-modal">
+
+            <div class="box-hover-modal-con">          <img class="case-img" src="Public/img/aa.jpg" alt=""></div>
+
+          </div>
+
+          <h5>一点点奶茶店</h5>
+          <h6><span class="glyphicon glyphicon-eye-open"></span> 666 人看过 </h6>
+          <p>餐饮空间 | 北约风格</p>
+          <hr>
+          <div class="col-md-4"><img class="case-img2" src="Public/img/aa.jpg" alt=""></div>
+          <div class="col-md-8"><h3 class="stylist">设计师：  邓婷婷</h3></div>     
+      </div>
+      <div class="case-show">
+
+          <div class="box-hover-modal">
+
+            <div class="box-hover-modal-con">          <img class="case-img" src="Public/img/aa.jpg" alt=""></div>
+
+          </div>
+
+          <h5>一点点奶茶店</h5>
+          <h6><span class="glyphicon glyphicon-eye-open"></span> 666 人看过 </h6>
+          <p>餐饮空间 | 北约风格</p>
+          <hr>
+          <div class="col-md-4"><img class="case-img2" src="Public/img/aa.jpg" alt=""></div>
+          <div class="col-md-8"><h3 class="stylist">设计师：  邓婷婷</h3></div>     
+
+
+      </div>
+      <div class="case-show">
+
+          <div class="box-hover-modal">
+
+            <div class="box-hover-modal-con">          <img class="case-img" src="Public/img/aa.jpg" alt=""></div>
+
+          </div>
+
+          <h5>一点点奶茶店</h5>
+          <h6><span class="glyphicon glyphicon-eye-open"></span> 666 人看过 </h6>
+          <p>餐饮空间 | 北约风格</p>
+          <hr>
+          <div class="col-md-4"><img class="case-img2" src="Public/img/aa.jpg" alt=""></div>
+          <div class="col-md-8"><h3 class="stylist">设计师：  邓婷婷</h3></div>     
+
+
+      </div>
+      <div class="case-show">
+
+          <div class="box-hover-modal">
+
+            <div class="box-hover-modal-con">          <img class="case-img" src="Public/img/aa.jpg" alt=""></div>
+
+          </div>
+
+          <h5>一点点奶茶店</h5>
+          <h6><span class="glyphicon glyphicon-eye-open"></span> 666 人看过 </h6>
+          <p>餐饮空间 | 北约风格</p>
+          <hr>
+          <div class="col-md-4"><img class="case-img2" src="Public/img/aa.jpg" alt=""></div>
+          <div class="col-md-8"><h3 class="stylist">设计师：  邓婷婷</h3></div>     
+
+
+      </div>
+      <div class="case-show">
+
+          <div class="box-hover-modal">
+
+            <div class="box-hover-modal-con">          <img class="case-img" src="Public/img/aa.jpg" alt=""></div>
+
+          </div>
+
+          <h5>一点点奶茶店</h5>
+          <h6><span class="glyphicon glyphicon-eye-open"></span> 666 人看过 </h6>
+          <p>餐饮空间 | 北约风格</p>
+          <hr>
+          <div class="col-md-4"><img class="case-img2" src="Public/img/aa.jpg" alt=""></div>
+          <div class="col-md-8"><h3 class="stylist">设计师：  邓婷婷</h3></div>        
+
+
+      </div>
+
+      <div class="case-show">
+
+          <div class="box-hover-modal">
+
+            <div class="box-hover-modal-con">          <img class="case-img" src="Public/img/aa.jpg" alt=""></div>
+
+          </div>
+
+
+          <h5>一点点奶茶店</h5>
+          <h6><span class="glyphicon glyphicon-eye-open"></span> 666 人看过 </h6>
+          <p>餐饮空间 | 北约风格</p>
+          <hr>
+          <div class="col-md-4"><img class="case-img2" src="Public/img/aa.jpg" alt=""></div>
+          <div class="col-md-8"><h3 class="stylist">设计师：  邓婷婷</h3></div>        
+
+
+      </div>
+
+      <div class="case-show">
+
+          <div class="box-hover-modal">
+
+            <div class="box-hover-modal-con">          <img class="case-img" src="Public/img/aa.jpg" alt=""></div>
+
+          </div>
+
+          <h5>一点点奶茶店</h5>
+          <h6><span class="glyphicon glyphicon-eye-open"></span> 666 人看过 </h6>
+          <p>餐饮空间 | 北约风格</p>
+          <hr>
+          <div class="col-md-4"><img class="case-img2" src="Public/img/aa.jpg" alt=""></div>
+          <div class="col-md-8"><h3 class="stylist">设计师：  邓婷婷</h3></div>     
+
+
+      </div>
+      <div class="case-show">
+
+          <div class="box-hover-modal">
+
+            <div class="box-hover-modal-con">          <img class="case-img" src="Public/img/aa.jpg" alt=""></div>
+
+          </div>
+
+          <h5>一点点奶茶店</h5>
+          <h6><span class="glyphicon glyphicon-eye-open"></span> 666 人看过 </h6>
+          <p>餐饮空间 | 北约风格</p>
+          <hr>
+          <div class="col-md-4"><img class="case-img2" src="Public/img/aa.jpg" alt=""></div>
+          <div class="col-md-8"><h3 class="stylist">设计师：  邓婷婷</h3></div>     
+
+
+      </div>
+      <div class="case-show">
+
+          <div class="box-hover-modal">
+
+            <div class="box-hover-modal-con">          <img class="case-img" src="Public/img/aa.jpg" alt=""></div>
+
+          </div>
+
+          <h5>一点点奶茶店</h5>
+          <h6><span class="glyphicon glyphicon-eye-open"></span> 666 人看过 </h6>
+          <p>餐饮空间 | 北约风格</p>
+          <hr>
+          <div class="col-md-4"><img class="case-img2" src="Public/img/aa.jpg" alt=""></div>
+          <div class="col-md-8"><h3 class="stylist">设计师：  邓婷婷</h3></div>     
+
+
+      </div>
+      <div class="case-show">
+
+          <div class="box-hover-modal">
+
+            <div class="box-hover-modal-con">          <img class="case-img" src="Public/img/aa.jpg" alt=""></div>
+
+          </div>
+
+          <h5>一点点奶茶店</h5>
+          <h6><span class="glyphicon glyphicon-eye-open"></span> 666 人看过 </h6>
+          <p>餐饮空间 | 北约风格</p>
+          <hr>
+          <div class="col-md-4"><img class="case-img2" src="Public/img/aa.jpg" alt=""></div>
+          <div class="col-md-8"><h3 class="stylist">设计师：  邓婷婷</h3></div>     
+
+
+      </div>
+      <div class="case-show">
+
+          <div class="box-hover-modal">
+
+            <div class="box-hover-modal-con">          <img class="case-img" src="Public/img/aa.jpg" alt=""></div>
+
+          </div>
+
+          <h5>一点点奶茶店</h5>
+          <h6><span class="glyphicon glyphicon-eye-open"></span> 666 人看过 </h6>
+          <p>餐饮空间 | 北约风格</p>
+          <hr>
+          <div class="col-md-4"><img class="case-img2" src="Public/img/aa.jpg" alt=""></div>
+          <div class="col-md-8"><h3 class="stylist">设计师：  邓婷婷</h3></div>     
+
+
+      </div>
+      <div class="case-show">
+
+          <div class="box-hover-modal">
+
+            <div class="box-hover-modal-con">          <img class="case-img" src="Public/img/aa.jpg" alt=""></div>
+
+          </div>
+
+          <h5>一点点奶茶店</h5>
+          <h6><span class="glyphicon glyphicon-eye-open"></span> 666 人看过 </h6>
+          <p>餐饮空间 | 北约风格</p>
+          <hr>
+          <div class="col-md-4"><img class="case-img2" src="Public/img/aa.jpg" alt=""></div>
+          <div class="col-md-8"><h3 class="stylist">设计师：  邓婷婷</h3></div>     
+
+
+      </div>
+
+ 
+
+ 
+
+   </div>
+ </div>
+ 
+<br>
+
+
+      <footer class="main-footer"> 
+           <div class="between"></div> 
+            <div class="container">
+                <div class="row">
+                  <div class="col-md-4">
+                    <div class="row">
+                      <div class="col-md-3">
+                            <ul class=" nav nav-pills"> 
+                              <li style="width: 120px;"><a style="background:#2C2C2C;color:#fff" href="#"><h4>关于我们</h4></a></li>
+                              <li style="width: 100px;margin-top: -12px"><a style="background:#2C2C2C;color:#fff" href="#">名万介绍</a></li>
+                              <li style="width: 100px;margin-top: -12px"><a style="background:#2C2C2C;color:#fff" href="#">名万品牌</a></li>
+                              <li style="width: 100px;margin-top: -12px"><a style="background:#2C2C2C;color:#fff" href="#">企业文化</a></li> 
+                            </ul>
+                      </div>
+                      <div class="col-md-3">
+                            <ul class="nav nav-pills">
+                              <li style="width: 120px;"><a style="background:#2C2C2C;color:#fff" href="#"><h4>匠心工艺</h4></a></li>
+                              <li style="width: 100px;margin-top: -12px"><a style="background:#2C2C2C;color:#fff" href="#">工装展示</a></li>
+                              <li style="width: 100px;margin-top: -12px"><a style="background:#2C2C2C;color:#fff" href="#">工装工艺</a></li>
+                              <li style="width: 100px;margin-top: -12px"><a style="background:#2C2C2C;color:#fff" href="#">案例展示</a></li> 
+                            </ul>
+                      </div>
+                      <div class="col-md-3">
+                            <ul class="nav nav-pills">
+                              <li style="width: 120px;"><a style="background:#2C2C2C;color:#fff" href="#"><h4>装修风格</h4></a></li>
+                              <li style="width: 100px;margin-top: -12px"><a style="background:#2C2C2C;color:#fff" href="#">北约风格</a></li>
+                              <li style="width: 100px;margin-top: -12px"><a style="background:#2C2C2C;color:#fff" href="#">欧式风格</a></li>
+                              <li style="width: 100px;margin-top: -12px"><a style="background:#2C2C2C;color:#fff" href="#">中式风格</a></li> 
+                              <li style="width: 100px;margin-top: -12px"><a style="background:#2C2C2C;color:#fff" href="#">简约风格</a></li>  
+                              <li style="width: 100px;margin-top: -12px"><a style="background:#2C2C2C;color:#fff" href="#">现代风格</a></li>  
+                            </ul>
+                      </div>
+                      <div class="col-md-3">
+                            <ul class="nav nav-pills">
+                              <li style="width: 120px;"><a style="background:#2C2C2C;color:#fff" href="#"><h4>装修咨询</h4></a></li>
+                              <li style="width: 100px;margin-top: -12px"><a style="background:#2C2C2C;color:#fff" href="#">装修百科</a></li>
+                              <li style="width: 100px;margin-top: -12px"><a style="background:#2C2C2C;color:#fff" href="#">装修攻略</a></li>
+                              <li style="width: 100px;margin-top: -12px"><a style="background:#2C2C2C;color:#fff" href="#">装修动态</a></li> 
+                            </ul>
+                      </div>
+                    </div>
+
+
+
+
+
+                  </div>
+                  <div class="ewm col-md-4"> 
+                     <div class="row">
+                        <a href=""><div class="col-md-6"><img src="Public/img/ewm.jpg" alt=""><p style="color:#fff">名万微信公众号</p></div></a>
+                        <a href=""><div class="col-md-6"><img src="Public/img/ewm.jpg" alt=""><p style="color:#fff">名万官方微博</p></div></a>
+                    </div>
+                </div>
+                  <div class="col-md-4">
+                  <h3 style="color: #fff"><span style="color: #F2A613; " class="glyphicon glyphicon-earphone"></span> 预约报名热线</h3>
+                      <h1 style="color: #F2A613" >400-8800-421</h1>  
+                  </div>
+                </div> 
+            </div>
+
+      </footer> 
+      <footer class="main-footers"> 
+        <p class="text-center">杭州名万装饰工程有限公司</p>
+        <p class="text-center">公司地址：杭州市拱墅区沈半路文创园198号</p>
+        <p class="text-center">浙ICP备16010905号 Copyright © www.mingwan.com</p> 
+       <div style="height:10px"></div> 
+      </footer> 
+
+ </body>  
+ 
+
+ </html>

@@ -1,0 +1,201 @@
+ .main-footer{
+  width:100%; 
+background:rgba(44,44,44,1);
+ }
+ 
+ li{list-style-type:none;}
+ 
+.ewm img{ 
+	margin-top: 20px;
+	margin-left: 20px;
+ } 
+.main-footer a{
+	color: #fff;
+}
+/* .main-footer a:hover{
+	color: #F2A613;
+} 
+ */
+.main-footers{  
+	width:100%; 
+	background:rgba(44,44,44,1);
+ }
+.main-footers p{
+ color: #fff;
+}
+
+.di-wx{
+    color:#fff;
+    text-align: center;
+}
+
+.di-a   :hover{
+    background:#2C2C2C;
+    color:#fff
+}
+
+
+/* 导航悬浮 */
+
+.right-nav {
+
+    width:80px; 
+    height: 382px;
+    position: fixed;top:20%;
+    left:94%;
+    bottom: auto; 
+    /* border: 1px solid #ccc;   */
+ 
+
+}
+
+.right-nav ul li {
+
+    width:78px;
+
+    display: block;
+
+    height: 77px;
+
+    padding: 2px;
+
+    overflow: hidden
+
+}
+
+.yuye {
+
+    background: url(../img/elevator.png) no-repeat;
+
+    background-position: 0 41%;
+    -webkit-transition: all .3s;
+
+    -moz-transition: all .3s;
+
+    -ms-transition: all .3s;
+
+    -o-transition: all .3s;
+ 
+
+}
+
+.yuye:hover {
+    background-position: 0 34.3%;
+    /* background-position: 0 74%; */
+
+}
+ 
+
+.zixun{
+    background: url(../img/elevator.png) no-repeat;
+    background-position: 0 47.4%;
+    -webkit-transition: all .3s;
+
+    -moz-transition: all .3s;
+
+    -ms-transition: all .3s;
+
+    -o-transition: all .3s;
+
+}
+
+.zixun:hover {
+    background-position: 0 54%;
+    /* background-position: 0 74%; */
+
+}
+
+.baojia{
+    background: url(../img/elevator.png) no-repeat;
+
+    background-position: 0 67%;
+    -webkit-transition: all .3s;
+
+    -moz-transition: all .3s;
+
+    -ms-transition: all .3s;
+
+    -o-transition: all .3s;
+}
+
+.baojia:hover {
+    background-position: 0 60.5%; 
+
+}
+
+ 
+.weixin-logo {
+
+    background: url(../img/elevator.png) no-repeat;
+
+    background-position: 0 0;
+
+    width: 0px;
+
+    height: 0px;
+
+    overflow: hidden;
+
+    position: absolute;
+
+    top: 110px;
+
+    right: 80px;
+
+    -webkit-transition: all .3s;
+
+    -moz-transition: all .3s;
+
+    -ms-transition: all .3s;
+
+    -o-transition: all .3s;
+
+}
+
+.weixin {
+
+    background: url(../img/elevator.png) no-repeat;
+
+    background-position: 0 74%;
+
+    -webkit-transition: all .3s;
+
+    -moz-transition: all .3s;
+
+    -ms-transition: all .3s;
+
+    -o-transition: all .3s;
+
+}
+
+.weixin:hover {
+
+    background-position: 0 80.5%; 
+
+}
+
+.weixin:hover .weixin-logo {
+
+    width: 170px;
+
+    height: 204px;
+
+}
+
+.top{
+    background: url(../img/elevator.png) no-repeat;
+
+    background-position: 0 94%;
+    -webkit-transition: all .3s;
+
+    -moz-transition: all .3s;
+
+    -ms-transition: all .3s;
+
+    -o-transition: all .3s;
+}
+
+.top:hover {
+    background-position: 0 87%; 
+
+} 

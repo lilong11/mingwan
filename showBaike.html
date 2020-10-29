@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>名万装饰-装修百科详情</title>
+    <link rel="stylesheet" href="Public/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="Include/css/baike.css">
+    <script src="Public/bootstrap/js/jquery.min.js"></script>  
+
+
+
+
+    <link type="text/css" rel="stylesheet" href="Public/css/tabs.css"/>
+    <link type="text/css" rel="stylesheet" href="Public/css/footer.css"/>
+    <script type="text/javascript" src="Public/js/tabs.js"></script>
+
+
+</head>
+<body>  
+<script type="text/javascript">  
+$(document).ready(function () {  
+  $('.tabs span').click(function () {  
+    $('.tabs div').hide();
+    $(this).siblings('span')
+           .removeClass('active')
+           .end()
+           .addClass('active')
+           .next('div')
+           .show();
+  });  
+});  
+</script>
+
+    <link rel="stylesheet" href="Index/css/index.css" />  
+  <link href="Public/bootstrap/css/bootstrap.min.css" rel="stylesheet" />   
+ 
+ <script src="https://www.jq22.com/jquery/jquery-3.3.1.js"></script>
+    
+  <!-- nav开始 -->  
+    <style>
+        [v-cloak] {
+          display: none ;
+        }
+      </style>    
+    <div style='z-index:100;' id="parent"> 
+      <div id="select" v-cloak> 
+        <div class="cities">银川 </div>
+        <div class="cities">西安</div>
+        <div class="cities">郑州</div>
+        <div class="cities">南京</div>
+        <div class="cities">杭州</div>
+        <div class="cities">福州</div>
+        <div class="cities">广州</div>
+        <div class="cities">台北</div>
+        <div class="cities">南宁</div>
+        <div class="cities">昆明</div>
+        <div class="cities">成都</div>
+        <div class="cities">重庆</div>
+        <div class="cities">贵阳</div>
+        <div class="cities">长沙</div>
+        <div class="cities">南昌</div>
+        <div class="cities">合肥</div>
+        <div class="cities">武汉</div>
+        <div class="cities">上海</div>
+        <div class="cities">海口</div>
+        <div class="cities">香港</div>
+        <div class="cities">澳门</div>
+      </div>
+    </div>
+
+    <nav class="navbar navbar-default">
+        <div style="width:1320px;margin: 0 auto;">
+          <div class="container-fluid"> 
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav"> 
+                <li style="width: 220px;padding: 0px" ><a href="#">欢迎来到名万装饰官方网站!</a></li> 
+                <li style="width: 90px;padding: 0px"><a href="#"><span class="glyphicon glyphicon-map-marker"></span>       <input type="text" value="杭州" id="text"><!--  <span id="city">[切换]</span> --></a></li>  
+              </ul>
+ 
+              <ul class="nav navbar-nav navbar-right">
+                <li style="width: 100px;padding: 0px"><a href="#"><span class="colors">微信公众号</span></a></li>
+                <li style="width: 4px;margin-top: 6px" class="su">|</li>
+                <li style="width: 70px;padding: 0px"><a href="#">微博</a></li> 
+                <li style="width: 4px;margin-top: 6px" class="su">|</li>
+                <li style="width: 90px;padding: 0px"><a href="#">联系我们</a></li> 
+                <li style="width: 4px;margin-top: 6px" class="su">|</li>
+                <li style="width: 150px;padding: 0px"><a href="#"><span class="colors"><span class="glyphicon glyphicon-phone-alt"></span> 400-8800-421</span></a></li>
+                <li style="width: 80px;padding: 0px"><a href="#"><span class="colors"> </a></li>
+ 
+              </ul>
+            </div> 
+          </div> 
+      </div>
+    </nav> 
+
+    <div class="navs">
+        <div style="width: 1300px" class="container">
+             <img style="margin-top: 10px" src="Index/img/max-log.jpg" alt=""> 
+ 
+                <ul class="nav nav-pills"> 
+
+                  <li style="width: 50px;height: 57px"  id="underline" role="presentation"><a style="background-color: #fff;padding: 0px" href="index.html"> 首页</a></li>
+                  <li style="width: 106px;height: 57px" id="underline" role="presentation"><a style="background-color: #fff;padding: 0px" href="asMingwan.html"> 关于名万</a></li>
+                  <li style="width: 106px;height: 57px" id="underline" role="presentation"><a style="background-color: #fff;padding: 0px" href="#"> 装修案例</a></li>
+                  <li style="width: 106px;height: 57px" id="underline" role="presentation"><a style="background-color: #fff;padding: 0px" href="#"> 设计团队</a></li>
+                  <li style="width: 106px;height: 57px" id="underline" role="presentation"><a style="background-color: #fff;padding: 0px" href="#"> 装修百科</a></li>
+                  <li style="width: 106px;height: 57px" id="underline" role="presentation"><a style="background-color: #fff;padding: 0px" href="#"> 施工管理</a></li>
+                  <li style="width: 106px;height: 57px" id="underline" role="presentation"><a style="background-color: #fff;padding: 0px" href="#"> 联系我们</a></li>
+                </ul>
+
+        </div>
+    </div> 
+  <!-- nav结束 --> 
+
+
+
+    <div class="baikes"><br><br>
+        <div class="container">
+          <div class="baike-right">
+                <div class="yuyue"><br>
+                    <div class="yuyue-text">算一算装修需要多少钱？</div>
+                    <form action="">
+                        <input type="text" name="" placeholder="您的姓名" autofocus>
+                        <input type="text" name="" placeholder="请输入手机号码">
+                        <input type="text" name="" placeholder="请输入面积">
+                        <button class="yuyue-btn">人工精准报价</button>
+                        <button class="yuyue-btn2">发送报价到手机</button>
+                    </form>
+                    <p>*为了您的权益，您的一切信息将被严格保密</p>
+                </div> 
+                <div class="gl"><br>
+                    <span>工装攻略推荐</span>
+                    <div class="row">
+                      <div class="col-md-7"><img src="Public/img/show.jpg" alt=""></div>
+                      <div class="col-md-5"><p> 200-300平方怎么样装修最合算？ </p></div>
+                      <button href="" class='gl-btn'>了解详情</button>
+                    </div>
+                    <div class="row">
+                      <div class="col-md-7"><img src="Public/img/show.jpg" alt=""></div>
+                      <div class="col-md-5"><p> 200-300平方怎么样装修最合算？ </p></div>
+                      <button href="" class='gl-btn'>了解详情</button>
+                    </div>
+
+                    <div class="row">
+                      <div class="col-md-7"><img src="Public/img/show.jpg" alt=""></div>
+                      <div class="col-md-5"><p> 200-300平方怎么样装修最合算？ </p></div>
+                      <button href="" class='gl-btn'>了解详情</button>
+                    </div>
+
+                    <div class="row">
+                      <div class="col-md-7"><img src="Public/img/show.jpg" alt=""></div>
+                      <div class="col-md-5"><p> 200-300平方怎么样装修最合算？ </p></div>
+                      <button href="" class='gl-btn'>了解详情</button>
+                    </div> 
+
+                </div>
+          </div>
+          <div class="recommend-left">&nbsp;
+          <div class="contents img">
+            
+
+           <div class="recommend">  
+               <h3 class="recommend-text">房子装修公司哪个好 ？</h3>
+               <h5><span><i class="glyphicon glyphicon-time"></i> 发布时间：2019/5/20</span>  <span><i class='glyphicon glyphicon-user'></i> 作者：名万装饰</span>     <span><i class='glyphicon glyphicon-eye-open'></i> 浏览量：114次</span>  </h5> 
+           </div>
+           <div class="recommend-show">
+             <h4>如果对于装修知识一窍不通，那么最好的解决办法便是将房屋装修交给自己信任的装修公司，但是市面上大大小小的装修公司如此多，房子装修公司哪个好？在朋友们进行选择的时候往往无从下手，如果随意确定一家装修公司，也许还会在后期出现各种各样的问题。</h4> 
+             <h4>所以要想装修出令自己满意的效果，就一定要先了解一下房子装修公司哪个好以及相关辨别方法，杭州名万装饰设计为您支招！</h4>
+             <p class="text-center"><img src="Public/img/dmo1.jpg" alt=""></p>
+             <h4>1.通过互联网或是周边好友的推荐，观察装修公司的口碑信誉：优质的装修公司一定是有着良好的口碑和信誉，业主的好评和认可才能树立良好的企业口碑，那么了解房子装修公司哪个好的过程中，可以通过网上查询该装修公司的评价情况，以及企业的发展历程和信誉。</h4>
+              <p class="text-center"><img src="Public/img/dmo1.jpg" alt=""></p>
+              <h4>2.实地进行资质考察：装修公司的规模和资历很大程度会影响到装修的质量，作为一家合格的装修公司，不管是营业执照还是相关证书等，都应该有资料供大家参阅。正规的装修公司肯定有着正规的办公地点，大家千万不要相信一些空壳装修公司，也不能单看资质就确定该公司装修水平不佳，经过一段时间的接触和考察自然也能知道装修公司的优劣。</h4>
+              <p class="text-center"><img src="Public/img/dmo1.jpg" alt=""></p>
+              <h4>3.要知道房子装修公司哪个好，可以去了解一下装修公司的装修流程，例如售前售后是否完善，优质的服务和施工工艺也是决定了装修公司的质量。杭州装修公司名万装饰对广大业主承诺质量不合格立即处理、以次充好假一罚十、设计不满意立即赔付、1小时内回复，24小时解决问题，一切都将以做业主心中第一为服务使命。</h4>
+           </div>
+ 
+             <div class="recommend-list">
+               <a href="">上一篇：<span>装修什么风格好？这几种你一定喜欢！</span></a><br> <br>
+               <a href="">上一篇：<span>下一篇：告诉你装修省钱攻略！</span></a><br> 
+               <button class="recommend-btn">返回列表</button>
+             </div>
+            <h3 class="push-top">相关内容推荐 <span>Related content recommendation</span></h3>
+            <div class="recommend-push">
+                <br>              
+                <div class="row">
+                  <div class="col-sm-6 col-md-4">
+                    <div class="thumbnail">
+                      <img src="Public/img/dmo1.jpg" alt="">
+                        <p class="text-left">装修什么风格好？这几种你一定......</p>
+                    </div>
+                  </div>
+
+                  <div class="col-sm-6 col-md-4">
+                    <div class="thumbnail">
+                      <img src="Public/img/dmo1.jpg" alt="">
+                        <p class="text-left">装修什么风格好？这几种你一定......</p>
+                    </div>
+                  </div>
+
+                  <div class="col-sm-6 col-md-4">
+                    <div class="thumbnail">
+                      <img src="Public/img/dmo1.jpg" alt="">
+                        <p class="text-left">装修什么风格好？这几种你一定......</p>
+                    </div>
+                  </div>
+
+
+                </div>
+
+            </div>
+          </div> 
+
+ 
+
+
+
+                </div>
+
+          </div>
+
+
+
+          </div>
+ 
+
+ <div style="background: #fff;height: 150px" class="yq">
+ <br>
+     <div class='tabs' id="tabs">
+        <ul class='horizontal'> 
+            <li rel="tab-1" class="selectActive">友情链接</li>
+            <li rel="tab-2">教育机构</li>
+            <li rel="tab-3">办公空间</li>
+            <li rel="tab-4">餐饮空间</li>
+            <li rel="tab-5">酒店民宿</li>
+        </ul>
+        <div rel='tab-1'><br>
+                        <a href="">名万装饰</a>
+                        <a href="">名万装饰</a>
+                        <a href="">名万装饰</a>
+                        <a href="">名万装饰</a><br>
+                        <a href="">名万装饰</a>
+                        <a href="">名万装饰</a>
+                        <a href="">名万装饰</a>
+        </div>
+        <div rel='tab-2'><br>
+                        <a href="">名2万装饰</a>
+                        <a href="">名万装饰</a>
+                        <a href="">名万装饰</a>
+                        <a href="">名万装饰</a><br>
+                        <a href="">名万装饰</a>
+                        <a href="">名万装饰</a>
+                        <a href="">名万装饰</a>
+        </div>
+        <div rel='tab-3'><br>
+                        <a href="">名3万装饰</a>
+                        <a href="">名万装饰</a>
+                        <a href="">名万装饰</a>
+                        <a href="">名万装饰</a><br>
+                        <a href="">名万装饰</a>
+                        <a href="">名万装饰</a>
+                        <a href="">名万装饰</a>
+        </div>
+        <div rel='tab-4'><br>
+                        <a href="">名4万装饰</a>
+                        <a href="">名万装饰</a>
+                        <a href="">名万装饰</a>
+                        <a href="">名万装饰</a><br>
+                        <a href="">名万装饰</a>
+                        <a href="">名万装饰</a>
+                        <a href="">名万装饰</a>
+        </div>
+        <div rel='tab-5'><br>
+                        <a href="">名5万装饰</a>
+                        <a href="">名万装饰</a>
+                        <a href="">名万装饰</a>
+                        <a href="">名万装饰</a><br>
+                        <a href="">名万装饰</a>
+                        <a href="">名万装饰</a>
+                        <a href="">名万装饰</a>
+        </div>
+
+    </div>
+
+ </div>
+ 
+
+      <footer class="main-footer"> 
+           <div class="between"></div> 
+            <div class="container">
+                <div class="row">
+                  <div class="col-md-4">
+                    <div class="row">
+                      <div class="col-md-3">
+                            <ul class=" nav nav-pills"> 
+                              <li style="width: 120px;"><a style="background:#2C2C2C;color:#fff" href="#"><h4>关于我们</h4></a></li>
+                              <li style="width: 100px"><a style="background:#2C2C2C;color:#fff" href="#">名万介绍</a></li>
+                              <li style="width: 100px"><a style="background:#2C2C2C;color:#fff" href="#">名万品牌</a></li>
+                              <li style="width: 100px"><a style="background:#2C2C2C;color:#fff" href="#">企业文化</a></li> 
+                            </ul>
+                      </div>
+                      <div class="col-md-3">
+                            <ul class="nav nav-pills">
+                              <li style="width: 120px;"><a style="background:#2C2C2C;color:#fff" href="#"><h4>匠心工艺</h4></a></li>
+                              <li style="width: 100px"><a style="background:#2C2C2C;color:#fff" href="#">工装展示</a></li>
+                              <li style="width: 100px"><a style="background:#2C2C2C;color:#fff" href="#">工装工艺</a></li>
+                              <li style="width: 100px"><a style="background:#2C2C2C;color:#fff" href="#">案例展示</a></li> 
+                            </ul>
+                      </div>
+                      <div class="col-md-3">
+                            <ul class="nav nav-pills">
+                              <li style="width: 120px;"><a style="background:#2C2C2C;color:#fff" href="#"><h4>装修风格</h4></a></li>
+                              <li style="width: 100px"><a style="background:#2C2C2C;color:#fff" href="#">北约风格</a></li>
+                              <li style="width: 100px"><a style="background:#2C2C2C;color:#fff" href="#">欧式风格</a></li>
+                              <li style="width: 100px"><a style="background:#2C2C2C;color:#fff" href="#">中式风格</a></li>  
+                            </ul>
+                      </div>
+                      <div class="col-md-3">
+                            <ul class="nav nav-pills">
+                              <li style="width: 120px;"><a style="background:#2C2C2C;color:#fff" href="#"><h4>装修咨询</h4></a></li>
+                              <li style="width: 100px"><a style="background:#2C2C2C;color:#fff" href="#">装修百科</a></li>
+                              <li style="width: 100px"><a style="background:#2C2C2C;color:#fff" href="#">装修攻略</a></li>
+                              <li style="width: 100px"><a style="background:#2C2C2C;color:#fff" href="#">装修动态</a></li> 
+                            </ul>
+                      </div>
+                    </div> 
+
+                  </div>
+                  <div class="ewm col-md-4"> 
+                     <div class="row">
+                        <a href=""><div class="col-md-6"><img src="Public/img/ewm.jpg" alt=""><p class="text-center">名万微信公众号</p></div></a>
+                        <a href=""><div class="col-md-6"><img src="Public/img/ewm.jpg" alt=""><p class="text-center">名万官方微博</p></div></a>
+                    </div>
+                </div>
+                  <div class="col-md-4">
+                  <h3 style="color: #fff"><span style="color: #F2A613; " class="glyphicon glyphicon-earphone"></span> 预约报名热线</h3>
+                      <h1 style="color: #F2A613; " >400-8800-421</h1>  
+                  </div>
+                </div> 
+            </div>
+        <br>
+      </footer> 
+      <footer class="main-footers"> 
+        <p class="text-center">杭州名万装饰工程有限公司</p>
+        <p class="text-center">公司地址：杭州市拱墅区沈半路文创园198号</p>
+        <p class="text-center">浙ICP备16010905号 Copyright © www.mingwan.com</p> 
+       <div style="height:10px"></div> 
+      </footer> 
+
+ 
+    <div class="right-nav">
+
+      <ul>
+
+        <a href=""><li class="yuye">
+
+          <div class="yuye-logo"></div>
+
+        </li></a>
+
+       <a href=""> <li class="zixun">
+
+          <div class="zixun-logo"></div>
+
+        </li></a>
+
+       <a href=""> <li class="baojia">
+
+          <div class="baojia-logo"></div>
+
+        </li></a>
+        <div style="height: 2px;width: 100%"></div>
+
+       <a href=""> <li class="weixin">
+
+          <div class="weixin-logo"></div>
+
+        </li></a>
+
+       <a href=""> <li class="top">
+
+          <div class="top-logo"></div>
+
+        </li></a> 
+
+     
+      </ul>
+
+    </div>
+
+
+
+    <div class="right-nav">
+
+      <ul>
+
+        <a href=""><li class="yuye">
+
+          <div class="yuye-logo"></div>
+
+        </li></a>
+
+       <a href=""> <li class="zixun">
+
+          <div class="zixun-logo"></div>
+
+        </li></a>
+
+       <a href=""> <li class="baojia">
+
+          <div class="baojia-logo"></div>
+
+        </li></a>
+        <div style="height: 2px;width: 100%"></div>
+
+       <a href=""> <li class="weixin">
+
+          <div class="weixin-logo"></div>
+
+        </li></a>
+
+       <a href=""> <li class="top">
+
+          <div class="top-logo"></div>
+
+        </li></a> 
+
+     
+      </ul>
+
+    </div>
+
+
+    
+
+
+
+    
+</body>
+<!-- 友情 -->
+ <script type="text/javascript">
+    tabs_takes.init("tabs");
+</script>
+
+    <script src="Index/js/dingwei.js" type="text/javascript"></script>  
+    <script src="Index/js/index.js"></script>
+
+ 
+</html>

@@ -1,0 +1,327 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+   <meta charset="UTF-8">
+   <title>名万装饰-设计师详情 </title>
+   <link href="Public/bootstrap/css/bootstrap.min.css" rel="stylesheet" /> 
+   <link href="Include/css/showUser-index.css" rel="stylesheet" /> 
+   <link href="Include/css/UShow.css" rel="stylesheet" /> 
+   <link href="Public/css/footer.css" rel="stylesheet" /> 
+
+  <link href="http://www.jq22.com/jquery/bootstrap-3.3.4.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="showUser/xt/style.css">
+
+  <script src="http://www.jq22.com/jquery/jquery-1.10.2.js"></script> 
+
+  <script src="showUser/xt/jquery.boxhovermodal.js"></script>
+
+
+
+
+
+    <link rel="stylesheet" href="Index/css/index.css" />  
+  <link href="Public/bootstrap/css/bootstrap.min.css" rel="stylesheet" />  
+ 
+ 
+ <script src="https://www.jq22.com/jquery/jquery-3.3.1.js"></script>
+  <script>
+
+    $(function(){
+
+      //调用插件boxhovermodal,一个操作元素,一个参数
+
+      //参数可以为空,默认为.box-hover-modal-m
+
+      $(".box-hover-modal").boxhovermodal(".box-hover-modal-m");
+
+    });
+
+  </script>
+
+
+   <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=fbXf9j0aPH4EwxPBaixZ8Ll2rGwMbFe8"></script>
+
+ </head>
+ <body>
+
+  <!-- nav开始 --> 
+       <style>
+        [v-cloak] {
+          display: none ;
+        }
+      </style>
+    <div style='z-index:100;' id="parent"> 
+      <div id="select" v-cloak> 
+        <div class="cities">银川 </div>
+        <div class="cities">西安</div>
+        <div class="cities">郑州</div>
+        <div class="cities">南京</div>
+        <div class="cities">杭州</div>
+        <div class="cities">福州</div>
+        <div class="cities">广州</div>
+        <div class="cities">台北</div>
+        <div class="cities">南宁</div>
+        <div class="cities">昆明</div>
+        <div class="cities">成都</div>
+        <div class="cities">重庆</div>
+        <div class="cities">贵阳</div>
+        <div class="cities">长沙</div>
+        <div class="cities">南昌</div>
+        <div class="cities">合肥</div>
+        <div class="cities">武汉</div>
+        <div class="cities">上海</div>
+        <div class="cities">海口</div>
+        <div class="cities">香港</div>
+        <div class="cities">澳门</div>
+      </div>
+    </div>
+
+    <nav class="navbar navbar-default">
+        <div style="width:1320px;margin: 0 auto;">
+          <div class="container-fluid"> 
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav"> 
+                <li ><a href="#">欢迎来到名万装饰官方网站!</a></li> 
+                <li><a href="#"><span class="glyphicon glyphicon-map-marker"></span>       <input type="text" value="杭州" id="text"><!--  <span id="city">[切换]</span> --></a></li>  
+              </ul>
+ 
+              <ul class="nav navbar-nav navbar-right">
+                <li><a href="#"><span class="colors">微信公众号</span></a></li>
+                <li class="su">|</li>
+                <li><a href="#">微博</a></li> 
+                <li class="su">|</li>
+                <li><a href="#">联系我们</a></li> 
+                <li class="su">|</li>
+                <li><a href="#"><span class="colors"><span class="glyphicon glyphicon-phone-alt"></span> 400-8800-421</span></a></li>
+                <li><a href="#"><span class="colors"> </a></li>
+ 
+              </ul>
+            </div> 
+          </div> 
+      </div>
+    </nav> 
+
+    <div class="navs">
+        <div style="width: 1300px" class="container">
+             <img style="margin-top: 10px" src="Index/img/max-log.jpg" alt=""> 
+ 
+                <ul class="nav nav-pills"> 
+
+                  <li  id="underline" role="presentation"><a style="background-color: #fff" href="index.html"> 首页</a></li>
+                  <li id="underline" role="presentation"><a style="background-color: #fff" href="asMingwan.html"> 关于名万</a></li>
+                  <li id="underline" role="presentation"><a style="background-color: #fff" href="#"> 装修案例</a></li>
+                  <li id="underline" role="presentation"><a style="background-color: #fff" href="#"> 设计团队</a></li>
+                  <li id="underline" role="presentation"><a style="background-color: #fff" href="#"> 装修百科</a></li>
+                  <li id="underline" role="presentation"><a style="background-color: #fff" href="#"> 施工管理</a></li>
+                  <li id="underline" role="presentation"><a style="background-color: #fff" href="#"> 联系我们</a></li>
+                </ul>
+
+        </div>
+    </div> 
+  <!-- nav结束 --> 
+
+
+
+    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner" role="listbox">
+
+        <div class="item active">
+          <img src="Public/img/lbt1.jpg" alt="...">
+        </div>
+
+        <div class="item">
+          <img src="Public/img/lbt2.jpg" alt="...">
+        </div>
+ 
+      </div>
+
+      <!-- Controls -->
+      <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+
+ 
+
+   <div class="topas">
+     <ul>
+       <li><a style="  text-decoration: none;color: #b0b0b0" class="tops-a" href="">当前位置：首页</a></li>
+       <li><i class="glyphicon glyphicon-menu-right"></i></li>
+      <li><a style="  text-decoration: none;" href=""><span>邓婷婷</span></a></li>
+     </ul>
+   </div>
+ 
+   <div class="show"><br><br>
+    <div class="show-content">
+      <div class="user-box">
+      <div class="user-null"></div>
+        <div  style="margin-left: 20px" class="row">  
+          <div class="img col-md-4"><img src="Public/img/users.jpg" alt=""></div>
+          <div class="col-md-8">
+
+              <div class="show-div1">邓婷婷</div>
+              <div class="show-div2">首席设计师</div>
+              <br>
+              <p>设计经验：10年</p>
+              <p>毕业院校：浙江商业学院 </p>
+              <p>擅长风格：新古典，新中式，法式，港式，日式，欧式，现代</p>
+              <p>设计理念：设计细无声,生活已润物。</p>
+              <p>设计作品：九龙山庄排屋、九龍仓.碧玺、西溪山庄、新京都.雅苑、春天花园、             风雅乐府、西城美墅、天鸿香榭里、文鼎苑、金色蓝庭……</p>
+              <br>
+              <p> 曾获荣誉：
+                           <br>
+              中国注册高级设计师<br>
+              杭州市优秀工装设计师（一等奖）
+                        </p>
+            <p> 曾获荣誉：
+                           <br>
+              中国注册高级设计师<br>
+              杭州市优秀工装设计师（一等奖）
+                        </p>
+
+          </div>
+        </div>
+      </div>
+
+
+
+          <h3>TA的案例展示 <span>His case shows</span></h3>
+          <div class="img exhibition">
+            <div><img src="Public/img/box.jpg" alt=""><p>大华澄品138平方美式装vr全景修效果图</p></div>
+            <div><img src="Public/img/box.jpg" alt=""><p>大华澄品138平方美式装vr全景修效果图</p></div>
+            <div><img src="Public/img/box.jpg" alt=""><p>大华澄品138平方美式装vr全景修效果图</p></div>
+            <div><img src="Public/img/box.jpg" alt=""><p>大华澄品138平方美式装vr全景修效果图</p></div> 
+            <div><img src="Public/img/box.jpg" alt=""><p>大华澄品138平方美式装vr全景修效果图</p></div> 
+            <div><img src="Public/img/box.jpg" alt=""><p>大华澄品138平方美式装vr全景修效果图</p></div>  
+          </div>
+<!--           <div class="row">
+
+            <div class="col-sm-6 col-md-4">
+              <div class="thumbnail">
+                <img   src="Public/img/users.jpg" alt="...">
+                <div class="caption">
+                  <h4>大华澄品138平方美式装vr全景修效果图</h4>
+                  
+                  
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-6 col-md-4">
+              <div class="thumbnail">
+                <img src="Public/img/users.jpg" alt="...">
+                <div class="caption">
+                  <h4>大华澄品138平方美式装vr全景修效果图</h4>
+                  
+                  
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-6 col-md-4">
+              <div class="thumbnail">
+                <img src="Public/img/users.jpg" alt="...">
+                <div class="caption">
+                  <h4>大华澄品138平方美式装vr全景修效果图</h4>
+                  
+                  
+                </div>
+              </div>
+            </div>
+
+
+          </div> -->
+
+
+    </div>
+
+           <div class="between"></div> 
+   </div>
+
+ 
+
+
+
+      <footer class="main-footer"> 
+           <div class="between"></div> 
+            <div class="container">
+                <div class="row">
+                  <div class="col-md-4">
+                    <div class="row">
+                      <div class="col-md-3">
+                            <ul class=" nav nav-pills"> 
+                              <li style="width: 120px;"><a style="background:#2C2C2C;color:#fff" href="#"><h4>关于我们</h4></a></li>
+                              <li style="width: 100px;margin-top: -12px"><a style="background:#2C2C2C;color:#fff" href="#">名万介绍</a></li>
+                              <li style="width: 100px;margin-top: -12px"><a style="background:#2C2C2C;color:#fff" href="#">名万品牌</a></li>
+                              <li style="width: 100px;margin-top: -12px"><a style="background:#2C2C2C;color:#fff" href="#">企业文化</a></li> 
+                            </ul>
+                      </div>
+                      <div class="col-md-3">
+                            <ul class="nav nav-pills">
+                              <li style="width: 120px;"><a style="background:#2C2C2C;color:#fff" href="#"><h4>匠心工艺</h4></a></li>
+                              <li style="width: 100px;margin-top: -12px"><a style="background:#2C2C2C;color:#fff" href="#">工装展示</a></li>
+                              <li style="width: 100px;margin-top: -12px"><a style="background:#2C2C2C;color:#fff" href="#">工装工艺</a></li>
+                              <li style="width: 100px;margin-top: -12px"><a style="background:#2C2C2C;color:#fff" href="#">案例展示</a></li> 
+                            </ul>
+                      </div>
+                      <div class="col-md-3">
+                            <ul class="nav nav-pills">
+                              <li style="width: 120px;"><a style="background:#2C2C2C;color:#fff" href="#"><h4>装修风格</h4></a></li>
+                              <li style="width: 100px;margin-top: -12px"><a style="background:#2C2C2C;color:#fff" href="#">北约风格</a></li>
+                              <li style="width: 100px;margin-top: -12px"><a style="background:#2C2C2C;color:#fff" href="#">欧式风格</a></li>
+                              <li style="width: 100px;margin-top: -12px"><a style="background:#2C2C2C;color:#fff" href="#">中式风格</a></li> 
+                              <li style="width: 100px;margin-top: -12px"><a style="background:#2C2C2C;color:#fff" href="#">简约风格</a></li>  
+                              <li style="width: 100px;margin-top: -12px"><a style="background:#2C2C2C;color:#fff" href="#">现代风格</a></li>  
+                            </ul>
+                      </div>
+                      <div class="col-md-3">
+                            <ul class="nav nav-pills">
+                              <li style="width: 120px;"><a style="background:#2C2C2C;color:#fff" href="#"><h4>装修咨询</h4></a></li>
+                              <li style="width: 100px;margin-top: -12px"><a style="background:#2C2C2C;color:#fff" href="#">装修百科</a></li>
+                              <li style="width: 100px;margin-top: -12px"><a style="background:#2C2C2C;color:#fff" href="#">装修攻略</a></li>
+                              <li style="width: 100px;margin-top: -12px"><a style="background:#2C2C2C;color:#fff" href="#">装修动态</a></li> 
+                            </ul>
+                      </div>
+                    </div>
+
+
+
+
+
+                  </div>
+                  <div class="ewm col-md-4"> 
+                     <div class="row">
+                        <a href=""><div class="col-md-6"><img src="Public/img/ewm.jpg" alt=""><p style="color:#fff">名万微信公众号</p></div></a>
+                        <a href=""><div class="col-md-6"><img src="Public/img/ewm.jpg" alt=""><p style="color:#fff">名万官方微博</p></div></a>
+                    </div>
+                </div>
+                  <div class="col-md-4">
+                  <h3 style="color: #fff"><span style="color: #F2A613; " class="glyphicon glyphicon-earphone"></span> 预约报名热线</h3>
+                      <h1 style="color: #F2A613; " >400-8800-421</h1>  
+                  </div>
+                </div> 
+            </div>
+
+      </footer> 
+      <footer class="main-footers"> 
+        <p class="text-center">杭州名万装饰工程有限公司</p>
+        <p class="text-center">公司地址：杭州市拱墅区沈半路文创园198号</p>
+        <p class="text-center">浙ICP备16010905号 Copyright © www.mingwan.com</p> 
+       <div style="height:10px"></div> 
+      </footer> 
+
+ </body> 
+    <script src="Include/js/show-index.js"></script>
+ 
+    <script src="Index/js/dingwei.js" type="text/javascript"></script>  
+    <script src="Index/js/index.js"></script>
+ </html>
